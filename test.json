@@ -1,0 +1,3349 @@
+{
+  "fights": [
+    {
+      "id": 1,
+      "start_time": 0,
+      "end_time": 7301,
+      "boss": 0,
+      "originalBoss": 2298,
+      "name": "\u041a\u043e\u043c\u0430\u043d\u0434\u0438\u0440 \u0433\u043b\u0443\u0431\u0438\u043d \u0421\u0438\u0432\u0430\u0440\u0430"
+    },
+    {
+      "id": 2,
+      "start_time": 79287,
+      "end_time": 86205,
+      "boss": 0,
+      "originalBoss": 2298,
+      "name": "\u041a\u043e\u043c\u0430\u043d\u0434\u0438\u0440 \u0433\u043b\u0443\u0431\u0438\u043d \u0421\u0438\u0432\u0430\u0440\u0430"
+    },
+    {
+      "id": 3,
+      "start_time": 107221,
+      "end_time": 112499,
+      "boss": 0,
+      "originalBoss": 2298,
+      "name": "\u041a\u043e\u043c\u0430\u043d\u0434\u0438\u0440 \u0433\u043b\u0443\u0431\u0438\u043d \u0421\u0438\u0432\u0430\u0440\u0430"
+    },
+    {
+      "id": 4,
+      "start_time": 285617,
+      "end_time": 568516,
+      "boss": 2298,
+      "name": "\u041a\u043e\u043c\u0430\u043d\u0434\u0438\u0440 \u0433\u043b\u0443\u0431\u0438\u043d \u0421\u0438\u0432\u0430\u0440\u0430",
+      "size": 26,
+      "difficulty": 4,
+      "kill": true,
+      "partial": 3,
+      "bossPercentage": 0,
+      "fightPercentage": 0,
+      "lastPhaseForPercentageDisplay": 0
+    },
+    {
+      "id": 5,
+      "start_time": 1400504,
+      "end_time": 1717745,
+      "boss": 2305,
+      "name": "\u0412\u0435\u043b\u0438\u043a\u043e\u043b\u0435\u043f\u0438\u0435 \u0410\u0437\u0448\u0430\u0440\u044b",
+      "size": 25,
+      "difficulty": 4,
+      "kill": true,
+      "partial": 3,
+      "bossPercentage": 0,
+      "fightPercentage": 0,
+      "lastPhaseForPercentageDisplay": 1
+    },
+    {
+      "id": 6,
+      "start_time": 2276362,
+      "end_time": 2295857,
+      "boss": 0,
+      "originalBoss": 2289,
+      "name": "\u0422\u0435\u043c\u043d\u043e\u0432\u043e\u0434\u043d\u044b\u0439 \u043b\u0435\u0432\u0438\u0430\u0444\u0430\u043d"
+    },
+    {
+      "id": 7,
+      "start_time": 2485667,
+      "end_time": 2796570,
+      "boss": 2289,
+      "name": "\u0422\u0435\u043c\u043d\u043e\u0432\u043e\u0434\u043d\u044b\u0439 \u043b\u0435\u0432\u0438\u0430\u0444\u0430\u043d",
+      "size": 25,
+      "difficulty": 4,
+      "kill": true,
+      "partial": 3,
+      "bossPercentage": 0,
+      "fightPercentage": 0,
+      "lastPhaseForPercentageDisplay": 0
+    },
+    {
+      "id": 8,
+      "start_time": 3133775,
+      "end_time": 3146312,
+      "boss": 0,
+      "originalBoss": 2304,
+      "name": "\u041b\u0435\u0434\u0438 \u042d\u0448\u0432\u0435\u0439\u043d"
+    },
+    {
+      "id": 9,
+      "start_time": 3312709,
+      "end_time": 3770298,
+      "boss": 2304,
+      "name": "\u041b\u0435\u0434\u0438 \u042d\u0448\u0432\u0435\u0439\u043d",
+      "size": 24,
+      "difficulty": 4,
+      "kill": true,
+      "partial": 3,
+      "bossPercentage": 0,
+      "fightPercentage": 0,
+      "lastPhaseForPercentageDisplay": 1
+    },
+    {
+      "id": 10,
+      "start_time": 3982504,
+      "end_time": 3988736,
+      "boss": 0,
+      "originalBoss": 2303,
+      "name": "\u041e\u0440\u0433\u043e\u0437\u043e\u0430"
+    },
+    {
+      "id": 11,
+      "start_time": 3989573,
+      "end_time": 3993966,
+      "boss": 0,
+      "originalBoss": 2303,
+      "name": "\u041e\u0440\u0433\u043e\u0437\u043e\u0430"
+    },
+    {
+      "id": 12,
+      "start_time": 4019187,
+      "end_time": 4025990,
+      "boss": 0,
+      "originalBoss": 2303,
+      "name": "\u041e\u0440\u0433\u043e\u0437\u043e\u0430"
+    },
+    {
+      "id": 13,
+      "start_time": 4026407,
+      "end_time": 4030819,
+      "boss": 0,
+      "originalBoss": 2303,
+      "name": "\u041e\u0440\u0433\u043e\u0437\u043e\u0430"
+    },
+    {
+      "id": 14,
+      "start_time": 4162993,
+      "end_time": 4530763,
+      "boss": 2303,
+      "name": "\u041e\u0440\u0433\u043e\u0437\u043e\u0430",
+      "size": 24,
+      "difficulty": 4,
+      "kill": false,
+      "partial": 3,
+      "bossPercentage": 146,
+      "fightPercentage": 146,
+      "lastPhaseForPercentageDisplay": 3
+    },
+    {
+      "id": 15,
+      "start_time": 4711326,
+      "end_time": 5005020,
+      "boss": 2303,
+      "name": "\u041e\u0440\u0433\u043e\u0437\u043e\u0430",
+      "size": 24,
+      "difficulty": 4,
+      "kill": false,
+      "partial": 3,
+      "bossPercentage": 2965,
+      "fightPercentage": 2965,
+      "lastPhaseForPercentageDisplay": 3
+    },
+    {
+      "id": 16,
+      "start_time": 5167002,
+      "end_time": 5504854,
+      "boss": 2303,
+      "name": "\u041e\u0440\u0433\u043e\u0437\u043e\u0430",
+      "size": 24,
+      "difficulty": 4,
+      "kill": true,
+      "partial": 3,
+      "bossPercentage": 0,
+      "fightPercentage": 0,
+      "lastPhaseForPercentageDisplay": 3
+    },
+    {
+      "id": 17,
+      "start_time": 5877654,
+      "end_time": 5888797,
+      "boss": 0,
+      "originalBoss": 2311,
+      "name": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u043a\u0438\u0439 \u0441\u0443\u0434"
+    },
+    {
+      "id": 18,
+      "start_time": 5910720,
+      "end_time": 5915065,
+      "boss": 0,
+      "originalBoss": 2311,
+      "name": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u043a\u0438\u0439 \u0441\u0443\u0434"
+    },
+    {
+      "id": 19,
+      "start_time": 6033586,
+      "end_time": 6440030,
+      "boss": 2311,
+      "name": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u043a\u0438\u0439 \u0441\u0443\u0434",
+      "size": 24,
+      "difficulty": 4,
+      "kill": true,
+      "partial": 3,
+      "bossPercentage": 0,
+      "fightPercentage": 0,
+      "lastPhaseForPercentageDisplay": 0
+    }
+  ],
+  "lang": "ru",
+  "friendlies": [
+    {
+      "name": "\u041d\u0430\u0440\u0448\u0438\u043a",
+      "id": 17,
+      "guid": 182050768,
+      "type": "Rogue",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 11
+        },
+        {
+          "id": 12
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u0412\u0438\u0432\u0435\u043a\u0430",
+      "id": 9,
+      "guid": 179775503,
+      "type": "DeathKnight",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u041a\u043e\u043d\u0438\u043c\u0438\u043a\u0441",
+      "id": 19,
+      "guid": 181015854,
+      "type": "DeathKnight",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 11
+        },
+        {
+          "id": 12
+        },
+        {
+          "id": 13
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u0414\u043e\u043a\u0442\u0440\u0438\u0441\u0430",
+      "id": 26,
+      "guid": 182717118,
+      "type": "Druid",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u041a\u0441\u0435\u043e\u043d\u043e\u0440",
+      "id": 10,
+      "guid": 174901499,
+      "type": "Warrior",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 12
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u041b\u0430\u043d\u0436",
+      "id": 2,
+      "guid": 93482505,
+      "type": "Shaman",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u041f\u0440\u043e\u0445\u0438\u043b\u043e\u043d",
+      "id": 25,
+      "guid": 182764758,
+      "type": "Druid",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u0421\u043d\u0430\u0440\u0441",
+      "id": 4,
+      "guid": 139095884,
+      "type": "Mage",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 2
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 11
+        },
+        {
+          "id": 12
+        },
+        {
+          "id": 13
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u0417\u0435\u0440\u043e\u043c\u0443\u0441",
+      "id": 23,
+      "guid": 49544742,
+      "type": "Druid",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 11
+        },
+        {
+          "id": 12
+        },
+        {
+          "id": 13
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u041d\u0435\u043c\u0443\u043d\u0430",
+      "id": 3,
+      "guid": 63101050,
+      "type": "Priest",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 11
+        },
+        {
+          "id": 12
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u0414\u0430\u043d\u043d\u043a\u0443",
+      "id": 11,
+      "guid": 131955813,
+      "type": "Paladin",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 7
+        }
+      ]
+    },
+    {
+      "name": "\u041c\u0430\u0441\u0442\u0435\u0440\u043f\u0432\u0435",
+      "id": 12,
+      "guid": 162421139,
+      "type": "Warrior",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 11
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u041b\u0435\u0441\u043d\u043e\u0439\u0438\u043d\u0434\u0435\u0435\u0446",
+      "id": 20,
+      "guid": 185008786,
+      "type": "Druid",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 1
+        },
+        {
+          "id": 4
+        }
+      ]
+    },
+    {
+      "name": "\u0426\u0430\u0440\u044c\u043f\u0435\u0447\u0435\u043d\u044c",
+      "id": 21,
+      "guid": 104076288,
+      "type": "Warlock",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 11
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u0422\u043e\u0442\u0435\u043c \u0438\u0441\u0446\u0435\u043b\u044f\u044e\u0449\u0435\u0433\u043e \u043f\u043e\u0442\u043e\u043a\u0430",
+      "id": 76,
+      "guid": 3527,
+      "type": "Pet",
+      "fights": [
+        {
+          "id": 17,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u0416\u0435\u0437\u0435\u0440",
+      "id": 5,
+      "guid": 126180595,
+      "type": "Warrior",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 12
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u041d\u0438\u043c\u0438\u0430\u043d",
+      "id": 6,
+      "guid": 165986659,
+      "type": "Druid",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 11
+        },
+        {
+          "id": 12
+        },
+        {
+          "id": 13
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u041a\u0443\u0447\u0430\u043f\u0440\u043e\u0431\u043b\u0435\u043c",
+      "id": 16,
+      "guid": 166858922,
+      "type": "Mage",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 1
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 11
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u0410\u0440\u0440\u0441\u0435\u043d\u0430\u043b",
+      "id": 27,
+      "guid": 167455978,
+      "type": "Hunter",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 12
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u041b\u043e\u0432\u0435\u0446 \u0442\u0435\u0447\u0435\u043d\u0438\u0439",
+      "id": 80,
+      "guid": 153628,
+      "type": "NPC",
+      "abilityIcon": "ability_mage_waterjet",
+      "fights": [
+        {
+          "id": 7,
+          "instances": 3,
+          "groups": 7
+        }
+      ]
+    },
+    {
+      "name": "\u0421\u0435\u0440\u0451\u0433\u0430\u0432\u043a\u0435\u0434\u0430\u0445",
+      "id": 15,
+      "guid": 183584632,
+      "type": "Shaman",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u0428\u0438\u043b\u0435\u0441",
+      "id": 24,
+      "guid": 181860714,
+      "type": "Druid",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        }
+      ]
+    },
+    {
+      "name": "\u0414\u043b\u0438\u043d\u043d\u044b\u0435\u0443\u0445\u0438",
+      "id": 84,
+      "guid": 74027098,
+      "type": "Mage",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 11
+        },
+        {
+          "id": 13
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u0425\u043e\u043b\u0438\u0431\u043b\u0430\u0439\u043d\u0434",
+      "id": 18,
+      "guid": 178167084,
+      "type": "Priest",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 12
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u0421\u0435\u0447\u043a\u0430",
+      "id": 8,
+      "guid": 98301138,
+      "type": "Shaman",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 11
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u0412\u043b\u0430\u0436\u043d\u044b\u0435\u0440\u043e\u0436\u043a\u0438",
+      "id": 13,
+      "guid": 163512918,
+      "type": "DemonHunter",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 11
+        },
+        {
+          "id": 12
+        },
+        {
+          "id": 13
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u041c\u044d\u043b\u0432\u0438\u043d\u043a\u0430",
+      "id": 22,
+      "guid": 117007560,
+      "type": "Priest",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 11
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u0412\u043e\u0439\u0441\u043a\u043e \u043c\u0435\u0440\u0442\u0432\u044b\u0445",
+      "id": 103,
+      "guid": 24207,
+      "type": "Pet",
+      "fights": [
+        {
+          "id": 19,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u042b\u043b\u043b\u0438\u0434\u0443\u043d",
+      "id": 14,
+      "guid": 164766968,
+      "type": "DemonHunter",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 11
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    },
+    {
+      "name": "\u0425\u043e\u043b\u0438\u0433\u0451\u043b",
+      "id": 7,
+      "guid": 74209339,
+      "type": "Paladin",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439\u0428\u0440\u0430\u043c",
+      "fights": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 11
+        },
+        {
+          "id": 14
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 16
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 19
+        }
+      ]
+    }
+  ],
+  "enemies": [
+    {
+      "name": "\u0417\u0430\u043d\u0448'\u0438\u0440-\u043c\u0438\u0440\u043c\u0438\u0434\u043e\u043d",
+      "id": 96,
+      "guid": 152311,
+      "type": "NPC",
+      "abilityIcon": "inv_polearm_2h_kthirrelic_d_01",
+      "fights": [
+        {
+          "id": 14,
+          "instances": 1
+        },
+        {
+          "id": 16,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0430 \u0410\u0437\u0448\u0430\u0440\u0430",
+      "id": 104,
+      "guid": 153340,
+      "type": "NPC",
+      "abilityIcon": "spell_holy_prayerofhealing",
+      "fights": [
+        {
+          "id": 19,
+          "instances": 1,
+          "groups": 14
+        }
+      ]
+    },
+    {
+      "name": "\u0417\u0430\u043d\u0448'\u0438\u0440-\u0433\u0432\u0430\u0440\u0434\u0435\u0435\u0446",
+      "id": 102,
+      "guid": 155619,
+      "type": "NPC",
+      "abilityIcon": "ability_karoz_leap",
+      "fights": [
+        {
+          "id": 17,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u0410\u0437\u0448'\u0430\u0440\u0438-\u0432\u0435\u0434\u044c\u043c\u0430",
+      "id": 98,
+      "guid": 152312,
+      "type": "NPC",
+      "abilityIcon": "ability_vehicle_electrocharge",
+      "fights": [
+        {
+          "id": 15,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u041e\u0440\u0433\u043e\u0437\u043e\u0430",
+      "id": 91,
+      "guid": 152128,
+      "type": "Boss",
+      "abilityIcon": "ability_poisonsting",
+      "fights": [
+        {
+          "id": 10,
+          "instances": 1
+        },
+        {
+          "id": 11,
+          "instances": 1
+        },
+        {
+          "id": 12,
+          "instances": 1
+        },
+        {
+          "id": 13,
+          "instances": 1
+        },
+        {
+          "id": 14,
+          "instances": 1
+        },
+        {
+          "id": 15,
+          "instances": 1
+        },
+        {
+          "id": 16,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u0421\u0432\u0435\u0442\u044f\u0449\u0438\u0439\u0441\u044f \u0438\u0433\u043b\u043e\u0431\u0440\u044e\u0445",
+      "id": 77,
+      "guid": 155278,
+      "type": "NPC",
+      "fights": [
+        {
+          "id": 6,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u0412\u0435\u043b\u0438\u043a\u043e\u043b\u0435\u043f\u0438\u0435 \u0410\u0437\u0448\u0430\u0440\u044b",
+      "id": 70,
+      "guid": 152364,
+      "type": "Boss",
+      "abilityIcon": "spell_arcane_blast",
+      "fights": [
+        {
+          "id": 5,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u041f\u0430\u0448\u043c\u0430\u0440 \u0424\u0430\u043d\u0430\u0442\u0438\u0447\u043d\u0430\u044f",
+      "id": 99,
+      "guid": 152852,
+      "type": "Boss",
+      "abilityIcon": "spell_nature_unrelentingstorm",
+      "fights": [
+        {
+          "id": 17,
+          "instances": 1
+        },
+        {
+          "id": 18,
+          "instances": 1
+        },
+        {
+          "id": 19,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u041b\u0435\u0434\u0438 \u042d\u0448\u0432\u0435\u0439\u043d",
+      "id": 83,
+      "guid": 152236,
+      "type": "Boss",
+      "abilityIcon": "spell_shaman_tidalwaves",
+      "fights": [
+        {
+          "id": 8,
+          "instances": 1
+        },
+        {
+          "id": 9,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u041c\u043e\u0449\u043d\u0430\u044f \u0438\u0441\u043a\u0440\u0430",
+      "id": 105,
+      "guid": 153335,
+      "type": "NPC",
+      "abilityIcon": "ability_monk_forcesphere",
+      "fights": [
+        {
+          "id": 19,
+          "instances": 10,
+          "groups": 5
+        }
+      ]
+    },
+    {
+      "name": "\u0427\u0430\u0440\u043e\u0434\u0435\u0439\u0441\u043a\u0430\u044f \u0431\u043e\u043c\u0431\u0430",
+      "id": 71,
+      "guid": 152873,
+      "type": "NPC",
+      "abilityIcon": "inv_enchant_essencearcanesmall",
+      "fights": [
+        {
+          "id": 5,
+          "instances": 9,
+          "groups": 7
+        }
+      ]
+    },
+    {
+      "name": "\u042f\u0439\u0446\u043e \u0438\u0437 \u0438\u043d\u043a\u0443\u0431\u0430\u0442\u043e\u0440\u0430",
+      "id": 94,
+      "guid": 154361,
+      "type": "NPC",
+      "abilityIcon": "inv_misc_food_legion_wildfowlegg",
+      "fights": [
+        {
+          "id": 14,
+          "instances": 3,
+          "groups": 1
+        },
+        {
+          "id": 15,
+          "instances": 6,
+          "groups": 1
+        },
+        {
+          "id": 16,
+          "instances": 5,
+          "groups": 1
+        }
+      ]
+    },
+    {
+      "name": "\u0421\u0438\u043b\u0438\u0432\u0430\u0437 \u0420\u0435\u0432\u043d\u043e\u0441\u0442\u043d\u044b\u0439",
+      "id": 100,
+      "guid": 152853,
+      "type": "Boss",
+      "abilityIcon": "ability_hunter_mastermarksman",
+      "fights": [
+        {
+          "id": 17,
+          "instances": 1
+        },
+        {
+          "id": 19,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u041a\u043e\u043c\u0430\u043d\u0434\u0438\u0440 \u0433\u043b\u0443\u0431\u0438\u043d \u0421\u0438\u0432\u0430\u0440\u0430",
+      "id": 1,
+      "guid": 151881,
+      "type": "Boss",
+      "abilityIcon": "spell_nature_earthquake",
+      "fights": [
+        {
+          "id": 1,
+          "instances": 1
+        },
+        {
+          "id": 2,
+          "instances": 1
+        },
+        {
+          "id": 3,
+          "instances": 1
+        },
+        {
+          "id": 4,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u0421\u043e\u043b\u0435\u043d\u044b\u0439 \u043f\u0443\u0437\u044b\u0440\u044c",
+      "id": 87,
+      "guid": 153194,
+      "type": "NPC",
+      "fights": [
+        {
+          "id": 9,
+          "instances": 13,
+          "groups": 7
+        }
+      ]
+    },
+    {
+      "name": "\u0421\u0432\u0435\u0442\u044f\u0449\u0438\u0439\u0441\u044f \u0438\u0433\u043b\u043e\u0431\u0440\u044e\u0445",
+      "id": 79,
+      "guid": 150773,
+      "type": "NPC",
+      "fights": [
+        {
+          "id": 7,
+          "instances": 5
+        }
+      ]
+    },
+    {
+      "name": "\u0417\u043e\u0430\u0442\u0440\u043e\u0438\u0434",
+      "id": 92,
+      "guid": 152159,
+      "type": "NPC",
+      "abilityIcon": "inv_misc_stormlordsfavor",
+      "fights": [
+        {
+          "id": 14,
+          "instances": 9,
+          "groups": 3
+        },
+        {
+          "id": 15,
+          "instances": 6,
+          "groups": 2
+        },
+        {
+          "id": 16,
+          "instances": 9,
+          "groups": 3
+        }
+      ]
+    },
+    {
+      "name": "\u0412\u044b\u0431\u0440\u043e\u0441 \u0430\u043c\u043d\u0438\u043e\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0436\u0438\u0434\u043a\u043e\u0441\u0442\u0438",
+      "id": 93,
+      "guid": 153692,
+      "type": "NPC",
+      "abilityIcon": "inv_misc_volatilewater",
+      "fights": [
+        {
+          "id": 14,
+          "instances": 6,
+          "groups": 2
+        },
+        {
+          "id": 15,
+          "instances": 6,
+          "groups": 2
+        },
+        {
+          "id": 16,
+          "instances": 6,
+          "groups": 2
+        }
+      ]
+    },
+    {
+      "name": "\u0428\u0442\u043e\u0440\u043c\u043e\u0432\u043e\u0439 \u0434\u0443\u0445",
+      "id": 72,
+      "guid": 152512,
+      "type": "NPC",
+      "abilityIcon": "spell_frost_arcticwinds",
+      "fights": [
+        {
+          "id": 5,
+          "instances": 2
+        }
+      ]
+    },
+    {
+      "name": "\u0422\u0435\u043c\u043d\u043e\u0432\u043e\u0434\u043d\u044b\u0439 \u043b\u0435\u0432\u0438\u0430\u0444\u0430\u043d",
+      "id": 75,
+      "guid": 150653,
+      "type": "Boss",
+      "abilityIcon": "ability_thunderking_lightningwhip",
+      "fights": [
+        {
+          "id": 6,
+          "instances": 1
+        },
+        {
+          "id": 7,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u0411\u0443\u0440\u0435\u0432\u0438\u043a",
+      "id": 74,
+      "guid": 152816,
+      "type": "NPC",
+      "abilityIcon": "spell_nature_lightning",
+      "fights": [
+        {
+          "id": 5,
+          "instances": 15,
+          "groups": 2
+        }
+      ]
+    },
+    {
+      "name": "\u0413\u0440\u043e\u043c\u0438\u043b\u0430 \u0438\u0437 \u043a\u043b\u0430\u043d\u0430 \u041a\u043e\u043b\u0435\u0446 \u0423\u0436\u0430\u0441\u0430",
+      "id": 95,
+      "guid": 152313,
+      "type": "NPC",
+      "abilityIcon": "ability_warstomp",
+      "fights": [
+        {
+          "id": 14,
+          "instances": 1
+        },
+        {
+          "id": 15,
+          "instances": 1
+        },
+        {
+          "id": 16,
+          "instances": 1
+        }
+      ]
+    }
+  ],
+  "friendlyPets": [
+    {
+      "name": "\u0417\u0430\u0449\u0438\u0442\u043d\u0438\u043a \u0410\u0437\u0435\u0440\u043e\u0442",
+      "id": 50,
+      "guid": 152396,
+      "type": "Pet",
+      "petOwner": 13,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 2
+        },
+        {
+          "id": 5,
+          "instances": 2
+        },
+        {
+          "id": 7,
+          "instances": 2
+        },
+        {
+          "id": 9,
+          "instances": 2
+        },
+        {
+          "id": 14,
+          "instances": 2
+        },
+        {
+          "id": 15,
+          "instances": 2
+        },
+        {
+          "id": 16,
+          "instances": 2
+        },
+        {
+          "id": 19,
+          "instances": 3
+        }
+      ]
+    },
+    {
+      "name": "\u0422\u043e\u0442\u0435\u043c \u0438\u0441\u0446\u0435\u043b\u044f\u044e\u0449\u0435\u0433\u043e \u043f\u043e\u0442\u043e\u043a\u0430",
+      "id": 44,
+      "guid": 3527,
+      "type": "Pet",
+      "petOwner": 8,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 10
+        },
+        {
+          "id": 5,
+          "instances": 9
+        },
+        {
+          "id": 7,
+          "instances": 11
+        },
+        {
+          "id": 9,
+          "instances": 16
+        },
+        {
+          "id": 14,
+          "instances": 12
+        },
+        {
+          "id": 15,
+          "instances": 10
+        },
+        {
+          "id": 16,
+          "instances": 11
+        },
+        {
+          "id": 19,
+          "instances": 15
+        }
+      ]
+    },
+    {
+      "name": "\u0420\u0443\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043e\u0440\u0443\u0436\u0438\u0435",
+      "id": 51,
+      "guid": 27893,
+      "type": "Pet",
+      "petOwner": 19,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 2
+        },
+        {
+          "id": 5,
+          "instances": 1
+        },
+        {
+          "id": 7,
+          "instances": 2
+        },
+        {
+          "id": 9,
+          "instances": 2
+        },
+        {
+          "id": 14,
+          "instances": 1
+        },
+        {
+          "id": 15,
+          "instances": 1
+        },
+        {
+          "id": 16,
+          "instances": 1
+        },
+        {
+          "id": 19,
+          "instances": 3
+        }
+      ]
+    },
+    {
+      "name": "\u0412\u043e\u0441\u0441\u0442\u0430\u0432\u0448\u0438\u0439 \u0442\u0438\u0445\u043e\u0441\u0442\u0443\u043f",
+      "id": 38,
+      "guid": 99541,
+      "type": "Pet",
+      "petOwner": 9,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 1
+        },
+        {
+          "id": 5,
+          "instances": 1
+        },
+        {
+          "id": 7,
+          "instances": 1
+        },
+        {
+          "id": 9,
+          "instances": 1
+        },
+        {
+          "id": 14,
+          "instances": 1
+        },
+        {
+          "id": 15,
+          "instances": 1
+        },
+        {
+          "id": 16,
+          "instances": 1
+        },
+        {
+          "id": 17,
+          "instances": 1
+        },
+        {
+          "id": 19,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u0422\u043e\u0442\u0435\u043c \u0434\u0443\u0445\u043e\u0432\u043d\u043e\u0439 \u0441\u0432\u044f\u0437\u0438",
+      "id": 67,
+      "guid": 53006,
+      "type": "Pet",
+      "petOwner": 8,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 1
+        },
+        {
+          "id": 5,
+          "instances": 2
+        },
+        {
+          "id": 7,
+          "instances": 1
+        },
+        {
+          "id": 9,
+          "instances": 1
+        },
+        {
+          "id": 14,
+          "instances": 2
+        },
+        {
+          "id": 16,
+          "instances": 2
+        },
+        {
+          "id": 19,
+          "instances": 2
+        }
+      ]
+    },
+    {
+      "name": "\u0420\u0435\u0431\u0440\u043e\u043b\u043e\u0432",
+      "id": 33,
+      "guid": 39777488,
+      "type": "Pet",
+      "petOwner": 9,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 1
+        },
+        {
+          "id": 5,
+          "instances": 1
+        },
+        {
+          "id": 6,
+          "instances": 1
+        },
+        {
+          "id": 7,
+          "instances": 1
+        },
+        {
+          "id": 9,
+          "instances": 1
+        },
+        {
+          "id": 14,
+          "instances": 1
+        },
+        {
+          "id": 15,
+          "instances": 1
+        },
+        {
+          "id": 16,
+          "instances": 1
+        },
+        {
+          "id": 17,
+          "instances": 1
+        },
+        {
+          "id": 19,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u0417\u0430\u0449\u0438\u0442\u043d\u0438\u043a \u0410\u0437\u0435\u0440\u043e\u0442",
+      "id": 53,
+      "guid": 152396,
+      "type": "Pet",
+      "petOwner": 21,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 2
+        },
+        {
+          "id": 5,
+          "instances": 2
+        },
+        {
+          "id": 7,
+          "instances": 2
+        },
+        {
+          "id": 9,
+          "instances": 3
+        },
+        {
+          "id": 14,
+          "instances": 2
+        },
+        {
+          "id": 15,
+          "instances": 1
+        },
+        {
+          "id": 16,
+          "instances": 2
+        },
+        {
+          "id": 19,
+          "instances": 3
+        }
+      ]
+    },
+    {
+      "name": "\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u0430\u043b\u044c \u0437\u0435\u043c\u043b\u0438",
+      "id": 86,
+      "guid": 95072,
+      "type": "Pet",
+      "petOwner": 8,
+      "fights": [
+        {
+          "id": 9,
+          "instances": 1
+        },
+        {
+          "id": 14,
+          "instances": 1
+        },
+        {
+          "id": 16,
+          "instances": 1
+        },
+        {
+          "id": 19,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u041f\u0435\u0440\u0438\u043e\u0434 \u0446\u0432\u0435\u0442\u0435\u043d\u0438\u044f",
+      "id": 36,
+      "guid": 47649,
+      "type": "Pet",
+      "petOwner": 25,
+      "fights": [
+        {
+          "id": 1,
+          "instances": 2
+        },
+        {
+          "id": 4,
+          "instances": 6
+        },
+        {
+          "id": 5,
+          "instances": 7
+        },
+        {
+          "id": 7,
+          "instances": 9
+        },
+        {
+          "id": 9,
+          "instances": 13
+        },
+        {
+          "id": 14,
+          "instances": 7
+        },
+        {
+          "id": 15,
+          "instances": 6
+        },
+        {
+          "id": 16,
+          "instances": 10
+        },
+        {
+          "id": 19,
+          "instances": 12
+        }
+      ]
+    },
+    {
+      "name": "\u0414\u0435\u043c\u043e\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0432\u0440\u0430\u0442\u0430",
+      "id": 40,
+      "guid": 59271,
+      "type": "Pet",
+      "petOwner": 21,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 1
+        },
+        {
+          "id": 5,
+          "instances": 1
+        },
+        {
+          "id": 9,
+          "instances": 1
+        },
+        {
+          "id": 14,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u0422\u043e\u0442\u0435\u043c \u0446\u0435\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u0438\u043b\u0438\u0432\u0430",
+      "id": 62,
+      "guid": 59764,
+      "type": "Pet",
+      "petOwner": 8,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 2
+        },
+        {
+          "id": 5,
+          "instances": 2
+        },
+        {
+          "id": 7,
+          "instances": 2
+        },
+        {
+          "id": 9,
+          "instances": 2
+        },
+        {
+          "id": 14,
+          "instances": 2
+        },
+        {
+          "id": 15,
+          "instances": 1
+        },
+        {
+          "id": 16,
+          "instances": 2
+        },
+        {
+          "id": 19,
+          "instances": 3
+        }
+      ]
+    },
+    {
+      "name": "\u042d\u043b\u0435\u043c\u0435\u043d\u0442\u0430\u043b\u044c \u0432\u043e\u0434\u044b",
+      "id": 35,
+      "guid": 31796546,
+      "type": "Pet",
+      "petOwner": 4,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 1
+        },
+        {
+          "id": 5,
+          "instances": 1
+        },
+        {
+          "id": 7,
+          "instances": 1
+        },
+        {
+          "id": 9,
+          "instances": 1
+        },
+        {
+          "id": 10,
+          "instances": 1
+        },
+        {
+          "id": 11,
+          "instances": 1
+        },
+        {
+          "id": 13,
+          "instances": 1
+        },
+        {
+          "id": 14,
+          "instances": 1
+        },
+        {
+          "id": 15,
+          "instances": 1
+        },
+        {
+          "id": 16,
+          "instances": 1
+        },
+        {
+          "id": 17,
+          "instances": 1
+        },
+        {
+          "id": 19,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u0412\u043e\u0439\u0441\u043a\u043e \u043c\u0435\u0440\u0442\u0432\u044b\u0445",
+      "id": 45,
+      "guid": 24207,
+      "type": "Pet",
+      "petOwner": 9,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 20
+        },
+        {
+          "id": 5,
+          "instances": 24
+        },
+        {
+          "id": 7,
+          "instances": 20
+        },
+        {
+          "id": 9,
+          "instances": 24
+        },
+        {
+          "id": 14,
+          "instances": 8
+        },
+        {
+          "id": 15,
+          "instances": 16
+        },
+        {
+          "id": 16,
+          "instances": 19
+        },
+        {
+          "id": 19,
+          "instances": 23
+        }
+      ]
+    },
+    {
+      "name": "\u0418\u0441\u0447\u0430\u0434\u0438\u0435 \u0422\u044c\u043c\u044b",
+      "id": 54,
+      "guid": 19668,
+      "type": "Pet",
+      "petOwner": 22,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 2
+        },
+        {
+          "id": 5,
+          "instances": 1
+        },
+        {
+          "id": 7,
+          "instances": 2
+        },
+        {
+          "id": 9,
+          "instances": 3
+        },
+        {
+          "id": 14,
+          "instances": 2
+        },
+        {
+          "id": 15,
+          "instances": 1
+        },
+        {
+          "id": 16,
+          "instances": 2
+        },
+        {
+          "id": 19,
+          "instances": 2
+        }
+      ]
+    },
+    {
+      "name": "\u0417\u0430\u0449\u0438\u0442\u043d\u0438\u043a \u0410\u0437\u0435\u0440\u043e\u0442",
+      "id": 85,
+      "guid": 152396,
+      "type": "Pet",
+      "petOwner": 27,
+      "fights": [
+        {
+          "id": 9,
+          "instances": 3
+        },
+        {
+          "id": 14,
+          "instances": 2
+        },
+        {
+          "id": 15,
+          "instances": 1
+        },
+        {
+          "id": 16,
+          "instances": 2
+        },
+        {
+          "id": 19,
+          "instances": 3
+        }
+      ]
+    },
+    {
+      "name": "\u0414\u0435\u043c\u043e\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0432\u0440\u0430\u0442\u0430",
+      "id": 41,
+      "guid": 59262,
+      "type": "Pet",
+      "petOwner": 21,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 1
+        },
+        {
+          "id": 5,
+          "instances": 1
+        },
+        {
+          "id": 9,
+          "instances": 1
+        },
+        {
+          "id": 14,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u042d\u043b\u0435\u043c\u0435\u043d\u0442\u0430\u043b\u044c \u0432\u043e\u0434\u044b",
+      "id": 34,
+      "guid": 37432420,
+      "type": "Pet",
+      "petOwner": 16,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 1
+        },
+        {
+          "id": 5,
+          "instances": 1
+        },
+        {
+          "id": 6,
+          "instances": 1
+        },
+        {
+          "id": 7,
+          "instances": 1
+        },
+        {
+          "id": 9,
+          "instances": 1
+        },
+        {
+          "id": 14,
+          "instances": 1
+        },
+        {
+          "id": 15,
+          "instances": 1
+        },
+        {
+          "id": 16,
+          "instances": 1
+        },
+        {
+          "id": 17,
+          "instances": 1
+        },
+        {
+          "id": 19,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u0417\u0430\u0449\u0438\u0442\u043d\u0438\u043a \u0410\u0437\u0435\u0440\u043e\u0442",
+      "id": 48,
+      "guid": 152396,
+      "type": "Pet",
+      "petOwner": 9,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 2
+        },
+        {
+          "id": 5,
+          "instances": 2
+        },
+        {
+          "id": 7,
+          "instances": 2
+        }
+      ]
+    },
+    {
+      "name": "\u041a\u0440\u043e\u0432\u0430\u0432\u044b\u0439 \u0447\u0435\u0440\u0432\u044c",
+      "id": 56,
+      "guid": 99773,
+      "type": "Pet",
+      "petOwner": 19,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 21
+        },
+        {
+          "id": 5,
+          "instances": 21
+        },
+        {
+          "id": 7,
+          "instances": 25
+        },
+        {
+          "id": 9,
+          "instances": 26
+        },
+        {
+          "id": 14,
+          "instances": 29
+        },
+        {
+          "id": 15,
+          "instances": 22
+        },
+        {
+          "id": 16,
+          "instances": 28
+        },
+        {
+          "id": 19,
+          "instances": 30
+        }
+      ]
+    },
+    {
+      "name": "\u041a\u0430\u0440\u0444\u0438\u043f\u0443",
+      "id": 31,
+      "guid": 18156169,
+      "type": "Pet",
+      "petOwner": 21,
+      "fights": [
+        {
+          "id": 2,
+          "instances": 1
+        },
+        {
+          "id": 3,
+          "instances": 1
+        },
+        {
+          "id": 4,
+          "instances": 1
+        },
+        {
+          "id": 5,
+          "instances": 1
+        },
+        {
+          "id": 6,
+          "instances": 1
+        },
+        {
+          "id": 7,
+          "instances": 1
+        },
+        {
+          "id": 9,
+          "instances": 1
+        },
+        {
+          "id": 14,
+          "instances": 1
+        },
+        {
+          "id": 15,
+          "instances": 1
+        },
+        {
+          "id": 16,
+          "instances": 1
+        },
+        {
+          "id": 18,
+          "instances": 1
+        },
+        {
+          "id": 19,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u0418\u0441\u0447\u0430\u0434\u0438\u0435 \u0422\u044c\u043c\u044b",
+      "id": 52,
+      "guid": 19668,
+      "type": "Pet",
+      "petOwner": 18,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 2
+        },
+        {
+          "id": 5,
+          "instances": 2
+        },
+        {
+          "id": 7,
+          "instances": 2
+        },
+        {
+          "id": 9,
+          "instances": 2
+        },
+        {
+          "id": 14,
+          "instances": 2
+        },
+        {
+          "id": 15,
+          "instances": 1
+        },
+        {
+          "id": 16,
+          "instances": 2
+        },
+        {
+          "id": 19,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u0427\u0430\u0440\u043e\u0434\u0435\u0439 \u0432\u043e\u0439\u0441\u043a\u0430 \u043c\u0435\u0440\u0442\u0432\u044b\u0445",
+      "id": 46,
+      "guid": 148797,
+      "type": "Pet",
+      "petOwner": 9,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 3
+        },
+        {
+          "id": 5,
+          "instances": 4
+        },
+        {
+          "id": 7,
+          "instances": 4
+        },
+        {
+          "id": 9,
+          "instances": 5
+        },
+        {
+          "id": 14,
+          "instances": 2
+        },
+        {
+          "id": 15,
+          "instances": 3
+        },
+        {
+          "id": 16,
+          "instances": 4
+        },
+        {
+          "id": 19,
+          "instances": 4
+        }
+      ]
+    },
+    {
+      "name": "\u041f\u0435\u0440\u0438\u043e\u0434 \u0446\u0432\u0435\u0442\u0435\u043d\u0438\u044f",
+      "id": 60,
+      "guid": 47649,
+      "type": "Pet",
+      "petOwner": 6,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 7
+        },
+        {
+          "id": 5,
+          "instances": 8
+        },
+        {
+          "id": 7,
+          "instances": 7
+        },
+        {
+          "id": 9,
+          "instances": 8
+        },
+        {
+          "id": 14,
+          "instances": 4
+        },
+        {
+          "id": 15,
+          "instances": 2
+        },
+        {
+          "id": 16,
+          "instances": 7
+        },
+        {
+          "id": 19,
+          "instances": 9
+        }
+      ]
+    },
+    {
+      "name": "\u042f\u0449\u0435\u0440-\u044d\u043b\u0435\u043c\u0435\u043d\u0442\u0430\u043b\u044c",
+      "id": 49,
+      "guid": 100820,
+      "type": "Pet",
+      "petOwner": 15,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 6
+        },
+        {
+          "id": 5,
+          "instances": 6
+        },
+        {
+          "id": 7,
+          "instances": 6
+        },
+        {
+          "id": 9,
+          "instances": 8
+        },
+        {
+          "id": 14,
+          "instances": 8
+        },
+        {
+          "id": 15,
+          "instances": 4
+        },
+        {
+          "id": 16,
+          "instances": 6
+        },
+        {
+          "id": 19,
+          "instances": 10
+        }
+      ]
+    },
+    {
+      "name": "\u0425\u0430\u0442\u0438",
+      "id": 32,
+      "guid": 41378513,
+      "type": "Pet",
+      "petOwner": 27,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 1
+        },
+        {
+          "id": 5,
+          "instances": 1
+        },
+        {
+          "id": 6,
+          "instances": 1
+        },
+        {
+          "id": 7,
+          "instances": 1
+        },
+        {
+          "id": 9,
+          "instances": 1
+        },
+        {
+          "id": 14,
+          "instances": 1
+        },
+        {
+          "id": 15,
+          "instances": 1
+        },
+        {
+          "id": 16,
+          "instances": 1
+        },
+        {
+          "id": 17,
+          "instances": 1
+        },
+        {
+          "id": 18,
+          "instances": 1
+        },
+        {
+          "id": 19,
+          "instances": 1
+        }
+      ]
+    },
+    {
+      "name": "\u0422\u043e\u0442\u0435\u043c \u0437\u0435\u043c\u043b\u044f\u043d\u043e\u0439 \u0441\u0442\u0435\u043d\u044b",
+      "id": 59,
+      "guid": 100943,
+      "type": "Pet",
+      "petOwner": 8,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 4
+        },
+        {
+          "id": 5,
+          "instances": 5
+        },
+        {
+          "id": 7,
+          "instances": 5
+        },
+        {
+          "id": 9,
+          "instances": 7
+        },
+        {
+          "id": 14,
+          "instances": 6
+        },
+        {
+          "id": 15,
+          "instances": 4
+        },
+        {
+          "id": 16,
+          "instances": 5
+        },
+        {
+          "id": 19,
+          "instances": 5
+        }
+      ]
+    },
+    {
+      "name": "\u0418\u0437\u043d\u0430\u0447\u0430\u043b\u044c\u043d\u044b\u0439 \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u0430\u043b\u044c \u043e\u0433\u043d\u044f",
+      "id": 47,
+      "guid": 61029,
+      "type": "Pet",
+      "petOwner": 2,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 2
+        },
+        {
+          "id": 5,
+          "instances": 3
+        },
+        {
+          "id": 7,
+          "instances": 3
+        },
+        {
+          "id": 9,
+          "instances": 3
+        },
+        {
+          "id": 14,
+          "instances": 3
+        },
+        {
+          "id": 15,
+          "instances": 2
+        },
+        {
+          "id": 16,
+          "instances": 3
+        },
+        {
+          "id": 19,
+          "instances": 3
+        }
+      ]
+    },
+    {
+      "name": "\u0421\u043e\u0437\u0435\u0440\u0446\u0430\u0442\u0435\u043b\u044c \u0422\u044c\u043c\u044b",
+      "id": 55,
+      "guid": 103673,
+      "type": "Pet",
+      "petOwner": 21,
+      "fights": [
+        {
+          "id": 4,
+          "instances": 2
+        },
+        {
+          "id": 5,
+          "instances": 2
+        },
+        {
+          "id": 7,
+          "instances": 2
+        },
+        {
+          "id": 9,
+          "instances": 3
+        },
+        {
+          "id": 14,
+          "instances": 1
+        },
+        {
+          "id": 15,
+          "instances": 1
+        },
+        {
+          "id": 16,
+          "instances": 2
+        },
+        {
+          "id": 19,
+          "instances": 3
+        }
+      ]
+    }
+  ],
+  "enemyPets": [],
+  "phases": [
+    {
+      "boss": 2303,
+      "phases": [
+        "Egg Chamber",
+        "The Moulting Hatchery",
+        "Naga Chamber"
+      ]
+    },
+    {
+      "boss": 2304,
+      "phases": [
+        "Stage 1: Hardened Carapace",
+        "Stage 2: Exposed Azerite"
+      ]
+    },
+    {
+      "boss": 2305,
+      "phases": [
+        "Rising Fury",
+        "Raging Storm"
+      ]
+    }
+  ],
+  "logVersion": 16,
+  "gameVersion": 1,
+  "title": "The Eternal Palace",
+  "owner": "\u0414\u043e\u043a\u0442\u0440\u0438\u0441\u0430",
+  "start": 1564593185152,
+  "end": 1564599625182,
+  "zone": 23,
+  "exportedCharacters": [
+    {
+      "id": 23220897,
+      "name": "\u0410\u0440\u0440\u0441\u0435\u043d\u0430\u043b",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 35833471,
+      "name": "\u0412\u0438\u0432\u0435\u043a\u0430",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 39903060,
+      "name": "\u0412\u043b\u0430\u0436\u043d\u044b\u0435\u0440\u043e\u0436\u043a\u0438",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 6906916,
+      "name": "\u0414\u0430\u043d\u043d\u043a\u0443",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 36772791,
+      "name": "\u0414\u043b\u0438\u043d\u043d\u044b\u0435\u0443\u0445\u0438",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 37718533,
+      "name": "\u0414\u043e\u043a\u0442\u0440\u0438\u0441\u0430",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 8012025,
+      "name": "\u0416\u0435\u0437\u0435\u0440",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 1098114,
+      "name": "\u0417\u0435\u0440\u043e\u043c\u0443\u0441",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 36454259,
+      "name": "\u041a\u043e\u043d\u0438\u043c\u0438\u043a\u0441",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 31913071,
+      "name": "\u041a\u0441\u0435\u043e\u043d\u043e\u0440",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 24118303,
+      "name": "\u041a\u0443\u0447\u0430\u043f\u0440\u043e\u0431\u043b\u0435\u043c",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 4607609,
+      "name": "\u041b\u0430\u043d\u0436",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 38243495,
+      "name": "\u041b\u0435\u0441\u043d\u043e\u0439\u0438\u043d\u0434\u0435\u0435\u0446",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 18707645,
+      "name": "\u041c\u0430\u0441\u0442\u0435\u0440\u043f\u0432\u0435",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 596390,
+      "name": "\u041c\u044d\u043b\u0432\u0438\u043d\u043a\u0430",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 36220544,
+      "name": "\u041d\u0430\u0440\u0448\u0438\u043a",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 8131555,
+      "name": "\u041d\u0435\u043c\u0443\u043d\u0430",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 24375286,
+      "name": "\u041d\u0438\u043c\u0438\u0430\u043d",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 35995274,
+      "name": "\u041f\u0440\u043e\u0445\u0438\u043b\u043e\u043d",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 36959288,
+      "name": "\u0421\u0435\u0440\u0451\u0433\u0430\u0432\u043a\u0435\u0434\u0430\u0445",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 9142783,
+      "name": "\u0421\u0435\u0447\u043a\u0430",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 7537174,
+      "name": "\u0421\u043d\u0430\u0440\u0441",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 33689682,
+      "name": "\u0425\u043e\u043b\u0438\u0431\u043b\u0430\u0439\u043d\u0434",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 11971926,
+      "name": "\u0425\u043e\u043b\u0438\u0433\u0451\u043b",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 21750764,
+      "name": "\u0426\u0430\u0440\u044c\u043f\u0435\u0447\u0435\u043d\u044c",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 38237798,
+      "name": "\u0428\u0438\u043b\u0435\u0441",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    },
+    {
+      "id": 20659744,
+      "name": "\u042b\u043b\u043b\u0438\u0434\u0443\u043d",
+      "server": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0428\u0440\u0430\u043c",
+      "region": "EU"
+    }
+  ]
+}

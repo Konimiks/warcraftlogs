@@ -1,0 +1,161 @@
+<ngb-tabset>
+  <ngb-tab title="Heroic">
+    <ng-template ngbTabContent>
+      <ngb-tabset>
+
+        <ngb-tab *ngFor="let boss of bossesTmp; index as i" title="{{boss.bossName}}">
+          <ng-template ngbTabContent>
+            <ngb-tabset>
+              <ngb-tab title="DPS">
+                <ng-template ngbTabContent>
+                  <table style="margin-top: 15px; background-color: #8f908f38;" class="table table-bordered">
+                    <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">ilvl</th>
+                      <th scope="col">Character</th>
+                      <th scope="col">Best DPS</th>
+                      <th scope="col">Average DPS (all kill pulls)</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr *ngFor="let character of viewResult.dps.heroic[i].result; index as j">
+                      <th scope="row">{{ j + 1 }}</th>
+                      <td>{{ character.ilvl | number }}</td>
+                      <td ngClass="{{ character.class }}">
+                        {{ character.characterName }}
+                      </td>
+                      <td>{{ character.bestDamage | number }}</td>
+                      <td>{{ character.averageDamage | number }}</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </ng-template>
+              </ngb-tab>
+              <ngb-tab title="HPS">
+                <ng-template ngbTabContent>
+                  <table style="margin-top: 15px; background-color: #8f908f38;" class="table table-bordered">
+                    <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">ilvl</th>
+                      <th scope="col">Character</th>
+                      <th scope="col">Best HPS</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr *ngFor="let character of viewResult.hps.heroic[i].result; index as j">
+                      <th scope="row">{{ j + 1 }}</th>
+                      <td>{{ character.ilvl | number }}</td>
+                      <td ngClass="{{ character.class }}">
+                        {{ character.characterName }}
+                      </td>
+                      <td>{{ character.bestHPS | number }}</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </ng-template>
+              </ngb-tab>
+            </ngb-tabset>
+          </ng-template>
+        </ngb-tab>
+
+        <!--<ngb-tab title="Abyssal Commander Sivara">
+          <ng-template ngbTabContent>
+            <ngb-tabset>
+              <ngb-tab title="DPS">
+                <ng-template ngbTabContent>
+                  <table style="margin-top: 15px;" class="table table-bordered">
+                    <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">ilvl</th>
+                      <th scope="col">Character</th>
+                      <th scope="col">Best DPS</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr *ngFor="let character of viewResult.dps.heroic[0].result; index as i">
+                      <th scope="row">{{ i + 1 }}</th>
+                      <td>{{ character.ilvl | number }}</td>
+                      <td ngClass="{{ character.class }}">
+                        {{ character.characterName }}
+                      </td>
+                      <td>{{ character.bestDamage | number }}</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </ng-template>
+              </ngb-tab>
+              <ngb-tab title="HPS">
+                <ng-template ngbTabContent>
+                  <table style="margin-top: 15px;" class="table table-bordered">
+                    <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">ilvl</th>
+                      <th scope="col">Character</th>
+                      <th scope="col">Best HPS</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr *ngFor="let character of viewResult.hps.heroic[0].result; index as i">
+                      <th scope="row">{{ i + 1 }}</th>
+                      <td>{{ character.ilvl | number }}</td>
+                      <td ngClass="{{ character.class }}">
+                        {{ character.characterName }}
+                      </td>
+                      <td>{{ character.bestHPS | number }}</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </ng-template>
+              </ngb-tab>
+            </ngb-tabset>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab title="Radiance of Azshara">
+          <ng-template ngbTabContent>
+            <ngb-tabset>
+              <ngb-tab title="DPS">
+                <ng-template ngbTabContent>
+                  <table style="margin-top: 15px;" class="table table-bordered">
+                    <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">ilvl</th>
+                      <th scope="col">Character</th>
+                      <th scope="col">Best damage</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr *ngFor="let character of viewResult.dps.heroic[1].result; index as i">
+                      <th scope="row">{{ i + 1 }}</th>
+                      <td>{{ character.ilvl | number }}</td>
+                      <td ngClass="{{ character.class }}">
+                        {{ character.characterName }}
+                      </td>
+                      <td>{{ character.bestDamage | number }}</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </ng-template>
+              </ngb-tab>
+              <ngb-tab title="HPS">
+                <ng-template ngbTabContent>
+
+                </ng-template>
+              </ngb-tab>
+            </ngb-tabset>
+          </ng-template>
+        </ngb-tab>-->
+
+      </ngb-tabset>
+    </ng-template>
+  </ngb-tab>
+  <ngb-tab title="Mythic">
+    <ng-template ngbTabContent>
+      -
+    </ng-template>
+  </ngb-tab>
+</ngb-tabset>
