@@ -7,14 +7,15 @@
             <ngb-tabset>
               <ngb-tab title="DPS">
                 <ng-template ngbTabContent>
-                  <table style="margin-top: 15px; background-color: #8f908f38;" class="table table-bordered">
+                  <table style="margin-top: 15px; background-color: #45504538;" class="table table-bordered">
                     <thead>
                     <tr>
                       <th scope="col">#</th>
-                      <th scope="col">ilvl</th>
+                      <th scope="col" (click)="sortData('ilvl')" style="cursor: pointer;">ilvl</th>
                       <th scope="col">Character</th>
-                      <th scope="col">Best DPS</th>
-                      <th scope="col">Average DPS (all kill pulls)</th>
+                      <th scope="col" (click)="sortData('best')" style="cursor: pointer;">Best DPS</th>
+                      <th scope="col" (click)="sortData('average')" style="cursor: pointer;">Average DPS (all kill pulls)</th>
+                      <th scope="col">Kills count</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -26,6 +27,7 @@
                       </td>
                       <td *ngIf="character.bestDamage != 0">{{ character.bestDamage | number }}</td>
                       <td *ngIf="character.bestDamage != 0">{{ character.averageDamage | number }}</td>
+                      <th *ngIf="character.bestDamage != 0">{{ character.killsCount | number }}</th>
                     </tr>
                     </tbody>
                   </table>
@@ -33,14 +35,15 @@
               </ngb-tab>
               <ngb-tab title="HPS">
                 <ng-template ngbTabContent>
-                  <table style="margin-top: 15px; background-color: #8f908f38;" class="table table-bordered">
+                  <table style="margin-top: 15px; background-color: #45504538;" class="table table-bordered">
                     <thead>
                     <tr>
                       <th scope="col">#</th>
-                      <th scope="col">ilvl</th>
+                      <th scope="col" (click)="sortData('ilvl')" style="cursor: pointer;">ilvl</th>
                       <th scope="col">Character</th>
-                      <th scope="col">Best HPS</th>
-                      <th scope="col">Average HPS (all kill pulls)</th>
+                      <th scope="col" (click)="sortData('best')" style="cursor: pointer;">Best HPS</th>
+                      <th scope="col" (click)="sortData('average')" style="cursor: pointer;">Average HPS (all kill pulls)</th>
+                      <th scope="col">Kills count</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -52,6 +55,7 @@
                       </td>
                       <td *ngIf="character.bestHPS != 0">{{ character.bestHPS | number }}</td>
                       <td *ngIf="character.bestHPS != 0">{{ character.averageHPS | number }}</td>
+                      <th *ngIf="character.bestHPS != 0">{{ character.killsCount | number }}</th>
                     </tr>
                     </tbody>
                   </table>
@@ -71,14 +75,15 @@
             <ngb-tabset>
               <ngb-tab title="DPS">
                 <ng-template ngbTabContent>
-                  <table style="margin-top: 15px; background-color: #8f908f38;" class="table table-bordered">
+                  <table style="margin-top: 15px; background-color: #45504538;" class="table table-bordered">
                     <thead>
                     <tr>
                       <th scope="col">#</th>
-                      <th scope="col">ilvl</th>
+                      <th scope="col" (click)="sortData('ilvl')" style="cursor: pointer;">ilvl</th>
                       <th scope="col">Character</th>
-                      <th scope="col">Best DPS</th>
-                      <th scope="col">Average DPS (all kill pulls)</th>
+                      <th scope="col" (click)="sortData('best')" style="cursor: pointer;">Best DPS</th>
+                      <th scope="col" (click)="sortData('average')" style="cursor: pointer;">Average DPS (all kill pulls)</th>
+                      <th scope="col">Kills count</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -90,6 +95,7 @@
                       </td>
                       <td *ngIf="character.bestDamage != 0">{{ character.bestDamage | number }}</td>
                       <td *ngIf="character.bestDamage != 0">{{ character.averageDamage | number }}</td>
+                      <th *ngIf="character.bestDamage != 0">{{ character.killsCount | number }}</th>
                     </tr>
                     </tbody>
                   </table>
@@ -97,14 +103,15 @@
               </ngb-tab>
               <ngb-tab title="HPS">
                 <ng-template ngbTabContent>
-                  <table style="margin-top: 15px; background-color: #8f908f38;" class="table table-bordered">
+                  <table style="margin-top: 15px; background-color: #45504538;" class="table table-bordered">
                     <thead>
                     <tr>
                       <th scope="col">#</th>
-                      <th scope="col">ilvl</th>
+                      <th scope="col" (click)="sortData('ilvl')" style="cursor: pointer;">ilvl</th>
                       <th scope="col">Character</th>
-                      <th scope="col">Best HPS</th>
-                      <th scope="col">Average HPS (all kill pulls)</th>
+                      <th scope="col" (click)="sortData('best')" style="cursor: pointer;">Best HPS</th>
+                      <th scope="col" (click)="sortData('average')" style="cursor: pointer;">Average HPS (all kill pulls)</th>
+                      <th scope="col">Kills count</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -116,6 +123,7 @@
                       </td>
                       <td *ngIf="character.bestHPS != 0">{{ character.bestHPS | number }}</td>
                       <td *ngIf="character.bestHPS != 0">{{ character.averageHPS | number }}</td>
+                      <th *ngIf="character.bestHPS != 0">{{ character.killsCount | number }}</th>
                     </tr>
                     </tbody>
                   </table>
@@ -135,14 +143,15 @@
             <ngb-tabset>
               <ngb-tab title="DPS">
                 <ng-template ngbTabContent>
-                  <table style="margin-top: 15px; background-color: #8f908f38;" class="table table-bordered">
+                  <table style="margin-top: 15px; background-color: #45504538;" class="table table-bordered">
                     <thead>
                     <tr>
                       <th scope="col">#</th>
-                      <th scope="col">ilvl</th>
+                      <th scope="col" (click)="sortData('ilvl')" style="cursor: pointer;">ilvl</th>
                       <th scope="col">Character</th>
-                      <th scope="col">Best DPS</th>
-                      <th scope="col">Average DPS (all kill pulls)</th>
+                      <th scope="col" (click)="sortData('best')" style="cursor: pointer;">Best DPS</th>
+                      <th scope="col" (click)="sortData('average')" style="cursor: pointer;">Average DPS (all kill pulls)</th>
+                      <th scope="col">Kills count</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -154,6 +163,7 @@
                       </td>
                       <td *ngIf="character.bestDamage != 0">{{ character.bestDamage | number }}</td>
                       <td *ngIf="character.bestDamage != 0">{{ character.averageDamage | number }}</td>
+                      <th *ngIf="character.bestDamage != 0">{{ character.killsCount | number }}</th>
                     </tr>
                     </tbody>
                   </table>
@@ -161,14 +171,15 @@
               </ngb-tab>
               <ngb-tab title="HPS">
                 <ng-template ngbTabContent>
-                  <table style="margin-top: 15px; background-color: #8f908f38;" class="table table-bordered">
+                  <table style="margin-top: 15px; background-color: #45504538;" class="table table-bordered">
                     <thead>
                     <tr>
                       <th scope="col">#</th>
-                      <th scope="col">ilvl</th>
+                      <th scope="col" (click)="sortData('ilvl')" style="cursor: pointer;">ilvl</th>
                       <th scope="col">Character</th>
-                      <th scope="col">Best HPS</th>
-                      <th scope="col">Average HPS (all kill pulls)</th>
+                      <th scope="col" (click)="sortData('best')" style="cursor: pointer;">Best HPS</th>
+                      <th scope="col" (click)="sortData('average')" style="cursor: pointer;">Average HPS (all kill pulls)</th>
+                      <th scope="col">Kills count</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -180,6 +191,7 @@
                       </td>
                       <td *ngIf="character.bestHPS != 0">{{ character.bestHPS | number }}</td>
                       <td *ngIf="character.bestHPS != 0">{{ character.averageHPS | number }}</td>
+                      <th *ngIf="character.bestHPS != 0">{{ character.killsCount | number }}</th>
                     </tr>
                     </tbody>
                   </table>

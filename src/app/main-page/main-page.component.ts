@@ -268,7 +268,8 @@ export class MainPageComponent implements OnInit {
         count++;
       }
     }
-    return count !== 0 ? (dps / count).toFixed(0) : 0;
+    let average = count !== 0 ? (dps / count).toFixed(0) : 0;
+    return { average, killsCount: count };
   }
 
   public findBestGearilvl(array) {
@@ -293,7 +294,9 @@ export class MainPageComponent implements OnInit {
         if (result.length > 0) {
           const gearilvl = this.findBestGearilvl(result);
           for (let i = 0; i < bosses.length; i++) {
-            const averageDamageNormal = this.findAverageDamageByEncounterIdAndDiff(result, bosses[i].encounterId, diff.normal);
+            const infoNormal = this.findAverageDamageByEncounterIdAndDiff(result, bosses[i].encounterId, diff.normal);
+            const averageDamageNormal = infoNormal.average;
+            const killsCountNormal = infoNormal.killsCount;
             const bestDamageNormal = this.findBestDamageByEncounterIdAndDiff(result, bosses[i].encounterId, diff.normal);
             const resObjNormal = {
               characterName: characterName,
@@ -301,11 +304,14 @@ export class MainPageComponent implements OnInit {
               encounter: bosses[i].encounterId,
               ilvl: gearilvl,
               bestDamage: bestDamageNormal,
-              averageDamage: averageDamageNormal
+              averageDamage: averageDamageNormal,
+              killsCount: killsCountNormal
             };
             this.viewResult.dps.normal[i].result.push(resObjNormal);
 
-            const averageDamageHeroic = this.findAverageDamageByEncounterIdAndDiff(result, bosses[i].encounterId, diff.heroic);
+            const infoHeroic = this.findAverageDamageByEncounterIdAndDiff(result, bosses[i].encounterId, diff.heroic);
+            const averageDamageHeroic = infoHeroic.average;
+            const killsCountHeroic = infoHeroic.killsCount;
             const bestDamageHeroic = this.findBestDamageByEncounterIdAndDiff(result, bosses[i].encounterId, diff.heroic);
             const resObjHeroic = {
               characterName: characterName,
@@ -313,11 +319,14 @@ export class MainPageComponent implements OnInit {
               encounter: bosses[i].encounterId,
               ilvl: gearilvl,
               bestDamage: bestDamageHeroic,
-              averageDamage: averageDamageHeroic
+              averageDamage: averageDamageHeroic,
+              killsCount: killsCountHeroic
             };
             this.viewResult.dps.heroic[i].result.push(resObjHeroic);
 
-            const averageDamageMythic = this.findAverageDamageByEncounterIdAndDiff(result, bosses[i].encounterId, diff.mythic);
+            const infoMythic = this.findAverageDamageByEncounterIdAndDiff(result, bosses[i].encounterId, diff.mythic);
+            const averageDamageMythic = infoMythic.average;
+            const killsCountMythic = infoMythic.killsCount;
             const bestDamageMythic = this.findBestDamageByEncounterIdAndDiff(result, bosses[i].encounterId, diff.mythic);
             const resObjMythic = {
               characterName: characterName,
@@ -325,7 +334,8 @@ export class MainPageComponent implements OnInit {
               encounter: bosses[i].encounterId,
               ilvl: gearilvl,
               bestDamage: bestDamageMythic,
-              averageDamage: averageDamageMythic
+              averageDamage: averageDamageMythic,
+              killsCount: killsCountMythic
             };
             this.viewResult.dps.mythic[i].result.push(resObjMythic);
           }
@@ -346,7 +356,9 @@ export class MainPageComponent implements OnInit {
         if (result.length > 0) {
           const gearilvl = this.findBestGearilvl(result);
           for (let i = 0; i < bosses.length; i++) {
-            const averageHPSNormal = this.findAverageDamageByEncounterIdAndDiff(result, bosses[i].encounterId, diff.normal);
+            const infoNormal = this.findAverageDamageByEncounterIdAndDiff(result, bosses[i].encounterId, diff.normal);
+            const averageHPSNormal = infoNormal.average;
+            const killsCountNormal = infoNormal.killsCount;
             const bestHPSNormal = this.findBestDamageByEncounterIdAndDiff(result, bosses[i].encounterId, diff.normal);
             const resObjNormal = {
               characterName: characterName,
@@ -354,11 +366,14 @@ export class MainPageComponent implements OnInit {
               encounter: bosses[i].encounterId,
               ilvl: gearilvl,
               bestHPS: bestHPSNormal,
-              averageHPS: averageHPSNormal
+              averageHPS: averageHPSNormal,
+              killsCount: killsCountNormal
             };
             this.viewResult.hps.normal[i].result.push(resObjNormal);
 
-            const averageHPSHeroic = this.findAverageDamageByEncounterIdAndDiff(result, bosses[i].encounterId, diff.heroic);
+            const infoHeroic = this.findAverageDamageByEncounterIdAndDiff(result, bosses[i].encounterId, diff.heroic);
+            const averageHPSHeroic = infoHeroic.average;
+            const killsCountHeroic = infoHeroic.killsCount;
             const bestHPSHeroic = this.findBestDamageByEncounterIdAndDiff(result, bosses[i].encounterId, diff.heroic);
             const resObjHeroic = {
               characterName: characterName,
@@ -366,11 +381,14 @@ export class MainPageComponent implements OnInit {
               encounter: bosses[i].encounterId,
               ilvl: gearilvl,
               bestHPS: bestHPSHeroic,
-              averageHPS: averageHPSHeroic
+              averageHPS: averageHPSHeroic,
+              killsCount: killsCountHeroic
             };
             this.viewResult.hps.heroic[i].result.push(resObjHeroic);
 
-            const averageHPSMythic = this.findAverageDamageByEncounterIdAndDiff(result, bosses[i].encounterId, diff.mythic);
+            const infoMythic = this.findAverageDamageByEncounterIdAndDiff(result, bosses[i].encounterId, diff.mythic);
+            const averageHPSMythic = infoMythic.average;
+            const killsCountMythic = infoMythic.killsCount;
             const bestHPSMythic = this.findBestDamageByEncounterIdAndDiff(result, bosses[i].encounterId, diff.mythic);
             const resObjMythic = {
               characterName: characterName,
@@ -378,7 +396,8 @@ export class MainPageComponent implements OnInit {
               encounter: bosses[i].encounterId,
               ilvl: gearilvl,
               bestHPS: bestHPSMythic,
-              averageHPS: averageHPSMythic
+              averageHPS: averageHPSMythic,
+              killsCount: killsCountMythic
             };
             this.viewResult.hps.mythic[i].result.push(resObjMythic);
           }
@@ -431,6 +450,42 @@ export class MainPageComponent implements OnInit {
   //     })
   //     .catch(error => console.log('Error: ' + error.message));
   // }
+
+  sortData(type) {
+    switch (type) {
+      case('average'):
+        for (let i = 0; i < this.viewResult.dps.heroic.length; i++) {
+          this.viewResult.dps.normal[i].result.sort((a, b) => b.averageDamage - a.averageDamage);
+          this.viewResult.dps.heroic[i].result.sort((a, b) => b.averageDamage - a.averageDamage);
+          this.viewResult.dps.mythic[i].result.sort((a, b) => b.averageDamage - a.averageDamage);
+          this.viewResult.hps.normal[i].result.sort((a, b) => b.averageHPS - a.averageHPS);
+          this.viewResult.hps.heroic[i].result.sort((a, b) => b.averageHPS - a.averageHPS);
+          this.viewResult.hps.mythic[i].result.sort((a, b) => b.averageHPS - a.averageHPS);
+        }
+        break;
+      case('ilvl'):
+        for (let i = 0; i < this.viewResult.dps.heroic.length; i++) {
+          this.viewResult.dps.normal[i].result.sort((a, b) => b.ilvl - a.ilvl);
+          this.viewResult.dps.heroic[i].result.sort((a, b) => b.ilvl - a.ilvl);
+          this.viewResult.dps.mythic[i].result.sort((a, b) => b.ilvl - a.ilvl);
+          this.viewResult.hps.normal[i].result.sort((a, b) => b.ilvl - a.ilvl);
+          this.viewResult.hps.heroic[i].result.sort((a, b) => b.ilvl - a.ilvl);
+          this.viewResult.hps.mythic[i].result.sort((a, b) => b.ilvl - a.ilvl);
+        }
+        break;
+      case('best'):
+      default:
+        for (let i = 0; i < this.viewResult.dps.heroic.length; i++) {
+          this.viewResult.dps.normal[i].result.sort((a, b) => b.bestDamage - a.bestDamage);
+          this.viewResult.dps.heroic[i].result.sort((a, b) => b.bestDamage - a.bestDamage);
+          this.viewResult.dps.mythic[i].result.sort((a, b) => b.bestDamage - a.bestDamage);
+          this.viewResult.hps.normal[i].result.sort((a, b) => b.bestHPS - a.bestHPS);
+          this.viewResult.hps.heroic[i].result.sort((a, b) => b.bestHPS - a.bestHPS);
+          this.viewResult.hps.mythic[i].result.sort((a, b) => b.bestHPS - a.bestHPS);
+        }
+        break;
+    }
+  }
 
   async ngOnInit() {
     let promises = [];
