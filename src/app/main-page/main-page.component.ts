@@ -68,6 +68,7 @@ export class MainPageComponent implements OnInit {
       '46c4a55557723f9763727df3100572b8',
       '28d4215f7efe456c011fa8754df32732',
       '23423235e156d32eb36564853db1a99e',
+      'cd0f3f82950db613fb20856cb08aae8e',
     ];
     this.bossesTmp = bosses;
     this.characterNames = [
