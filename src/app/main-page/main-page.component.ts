@@ -156,6 +156,7 @@ export class MainPageComponent implements OnInit {
       'Пингноль',
       'Прохилон',
       'Сечка',
+      'Данмид'
     ];
     this.viewResult = {
       dps: {
