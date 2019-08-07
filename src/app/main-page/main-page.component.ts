@@ -289,7 +289,8 @@ export class MainPageComponent implements OnInit {
       .get(`${this.apiUrl}/parses/character/${characterName}/${serverName}/${serverRegion}?metric=dps&api_key=${this.apiKeys[this.getRandomInt(0, this.apiKeys.length)]}`)
       .toPromise()
       .then((result: any) => {
-        if (result.status === 400) {
+        if (result.status === 400 || result.status === 429) {
+          this.didntload++;
           throwError(result.error);
         }
 

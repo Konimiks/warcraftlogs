@@ -1,4 +1,4 @@
-<p style="color: red;">Didn`t loaded characters: {{didntload}}</p>
+<p *ngIf="didntload !== 0" style="color: red;">Didn`t loaded characters: {{didntload}}</p>
 <ngb-tabset>
   <ngb-tab title="Normal">
     <ng-template ngbTabContent>
