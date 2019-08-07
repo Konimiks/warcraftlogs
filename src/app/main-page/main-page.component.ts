@@ -56,8 +56,10 @@ export class MainPageComponent implements OnInit {
   public characterNamesHeals: any;
   public viewResult: any;
   public bossesTmp: any;
+  public didntload: any;
 
   constructor(private http: HttpClient) {
+    this.didntload = 0;
     this.apiUrl = 'https://www.warcraftlogs.com:443/v1';
     this.apiKeys = [
       'd12f97db62760f41847d839721339d40',
@@ -349,7 +351,8 @@ export class MainPageComponent implements OnInit {
       .get(`${this.apiUrl}/parses/character/${characterName}/${serverName}/${serverRegion}?metric=hps&api_key=${this.apiKeys[this.getRandomInt(0, this.apiKeys.length)]}`)
       .toPromise()
       .then((result: any) => {
-        if (result.status === 400) {
+        if (result.status === 400 || result.status === 429) {
+          this.didntload++;
           throwError(result.error);
         }
 
@@ -405,51 +408,6 @@ export class MainPageComponent implements OnInit {
       })
       .catch(error => console.log('Error: ' + error.message));
   }
-
-  // async getDataByCharacterAndEncounterDPS(characterName, encounter, encounterIndex, difficulty, diffName) {
-  //   return this.http
-  //     .get(`${this.apiUrl}/parses/character/${characterName}/${serverName}/${serverRegion}?
-  //               encounter=${encounter}&metric=dps&api_key=${this.apiKeys[this.getRandomInt(0, this.apiKeys.length)]}`)
-  //     .toPromise()
-  //     .then( (result: any) => {
-  //       if (result.status === 400) {
-  //         throwError(result.error);
-  //       }
-  //       const res = [];
-  //       for (let i = 0; i < result.length; i++) {
-  //         if (result[i].difficulty === difficulty) {
-  //           res.push(result[i]);
-  //         }
-  //       }
-  //       if (res.length > 0) {
-  //         const bestDamageIndex = this.findBestDamageIndex(res);
-  //         const bestDamage = this.findBestDamage(res);
-  //         const gearilvl = this.findBestGearilvl(res);
-  //         const resObj = {
-  //           characterName: characterName,
-  //           class: res[0].class,
-  //           encounter: encounter,
-  //           ilvl: gearilvl,
-  //           bestDamage: bestDamage
-  //         };
-  //         if (diffName === 'heroic') {
-  //           this.viewResult.heroic[encounterIndex].result.push(resObj);
-  //         } else if (diffName === 'mythic') {
-  //           this.viewResult.mythic[encounterIndex].result.push(resObj);
-  //         }
-  //       }
-  //       // else {
-  //       //   const resObj = {
-  //       //     characterName: characterName,
-  //       //     class: 'Tuhliy',
-  //       //     encounter: encounter,
-  //       //     ilvl: 0,
-  //       //     bestDamage: 0
-  //       //   };
-  //       // }
-  //     })
-  //     .catch(error => console.log('Error: ' + error.message));
-  // }
 
   sortData(type) {
     switch (type) {
