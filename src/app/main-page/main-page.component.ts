@@ -158,7 +158,8 @@ export class MainPageComponent implements OnInit {
       'Прохилон',
       'Сечка',
       'Данмид',
-      'Калитрея'
+      'Калитрея',
+      'Весёлаяморда'
     ];
     this.viewResult = {
       dps: {
