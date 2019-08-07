@@ -79,6 +79,7 @@ export class MainPageComponent implements OnInit {
       'Альбедааое',
       'Арночка',
       'Аррсенал',
+      'Антерос',
       'Бабушказачем',
       'Бэдтрик',
       'Везульвий',
