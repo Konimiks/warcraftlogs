@@ -127,6 +127,7 @@ export class MainPageComponent implements OnInit {
       'Преториус',
       'Прохилон',
       'Рахазыч',
+      'Рилен',
       'Сайба',
       'Седобородь',
       'Серёгавкедах',
@@ -157,9 +158,11 @@ export class MainPageComponent implements OnInit {
       'Пингноль',
       'Прохилон',
       'Сечка',
+      'Спиириит',
+      'Спиритл',
       'Данмид',
       'Калитрея',
-      'Весёлаяморда'
+      'Весёлаяморда',
     ];
     this.viewResult = {
       dps: {
