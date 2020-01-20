@@ -2,40 +2,57 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import {throwError} from 'rxjs';
 
-const serverName = 'черныи-шрам';
+const serverName = 'гордунни';
+// const serverName = 'черныи-шрам';
 const serverRegion = 'EU';
 const bosses = [
   {
-    encounterId: 2298,
-    bossName: 'Abyssal Commander Sivara'
+    encounterId: 2329,
+    bossName: 'Wrathion'
   },
   {
-    encounterId: 2305,
-    bossName: 'Radiance of Azshara'
+    encounterId: 2327,
+    bossName: 'Maut'
   },
   {
-    encounterId: 2289,
-    bossName: 'Blackwater Behemoth'
+    encounterId: 2334,
+    bossName: 'The Prophet Skitra'
   },
   {
-    encounterId: 2304,
-    bossName: 'Lady Ashvane'
+    encounterId: 2329,
+    bossName: 'Dark Inquisitor Xanesh'
   },
   {
-    encounterId: 2303,
-    bossName: 'Orgozoa'
+    encounterId: 2333,
+    bossName: 'The Hivemind'
   },
   {
-    encounterId: 2311,
-    bossName: 'The Queen\'s Court'
+    encounterId: 2335,
+    bossName: 'Shad\'har the Insatiable'
   },
   {
-    encounterId: 2293,
-    bossName: 'Za\'qul'
+    encounterId: 2343,
+    bossName: 'Drest`agath'
   },
   {
-    encounterId: 2299,
-    bossName: 'Queen Azshara'
+    encounterId: 2336,
+    bossName: 'Vexiona'
+  },
+  {
+    encounterId: 2331,
+    bossName: 'Ra-den the Despoiled'
+  },
+  {
+    encounterId: 2345,
+    bossName: 'Il\'gynoth, Corruption Reborn'
+  },
+  {
+    encounterId: 2337,
+    bossName: 'Carapace of N\'Zoth'
+  },
+  {
+    encounterId: 2344,
+    bossName: 'N\'Zoth the Corruptor'
   }
 ];
 const diff = {
@@ -74,159 +91,100 @@ export class MainPageComponent implements OnInit {
     ];
     this.bossesTmp = bosses;
     this.characterNames = [
-      'Аббадин',
-      'Адскийвар',
-      'Альбедааое',
-      'Арночка',
-      'Аррсенал',
-      'Антерос',
-      'Бабушказачем',
-      'Бэдтрик',
-      'Везульвий',
-      'Весёлаяморда',
-      'Вивека',
-      'Влажныерожки',
-      'Воинкустов',
-      'Воинодина',
-      'Гвинович',
-      'Гризливгриме',
-      'Даннку',
-      'Дашажмихекс',
-      'Демонвоплоти',
-      'Деодем',
-      'Димелла',
-      'Длинныеухи',
-      'Докторриба',
-      'Доктриса',
-      'Жезер',
-      'Зангуро',
-      'Зеромус',
-      'Злойлектор',
-      'Зрумь',
-      'Идоморх',
-      'Иигар',
-      'Исвиль',
-      'Калитрея',
-      'Келлорн',
       'Конимикс',
-      'Краствер',
-      'Ксеонор',
-      'Кучапроблем',
-      'Лакер',
-      'Ланж',
-      'Леснойиндеец',
-      'Линде',
-      'Мастерпве',
-      'Мэлвинка',
-      'Наршик',
-      'Немуна',
-      'Нимиан',
-      'Ниссида',
-      'Пингноль',
-      'Подколенка',
-      'Преториус',
-      'Прохилон',
-      'Рахазыч',
-      'Рилен',
-      'Сайба',
-      'Седобородь',
-      'Серёгавкедах',
-      'Сечка',
-      'Симплерлол',
-      'Снарс',
-      'Спиириит',
-      'Спиритл',
-      'Стильдвака',
-      'Уепал',
-      'Холиблайнд',
-      'Холигёл',
-      'Холидеад',
-      'Царьпечень',
-      'Шилес',
-      'Шихузу',
-      'Ыллидун',
-      'Элисэндра',
     ];
     this.characterNamesHeals = [
-      'Зеромус',
       'Конимикс',
-      'Ланж',
-      'Мэлвинка',
-      'Немуна',
-      'Нимиан',
-      'Ниссида',
-      'Пингноль',
-      'Прохилон',
-      'Сечка',
-      'Спиириит',
-      'Спиритл',
-      'Данмид',
-      'Калитрея',
-      'Весёлаяморда',
     ];
     this.viewResult = {
+      actorName: "",
+      films: [],
       dps: {
         normal: [
-          { bossName: 'Abyssal Commander Sivara', encounterId: 2298, result: []},
-          { bossName: 'Radiance of Azshara', encounterId: 2305, result: []},
-          { bossName: 'Blackwater Behemoth', encounterId: 2289, result: []},
-          { bossName: 'Lady Ashvane', encounterId: 2304, result: []},
-          { bossName: 'Orgozoa', encounterId: 2303, result: []},
-          { bossName: 'The Queen\'s Court', encounterId: 2311, result: []},
-          { bossName: 'Za\'qul', encounterId: 2293, result: []},
-          { bossName: 'Queen Azshara', encounterId: 2299, result: []}
+          { bossName: 'Wrathion', encounterId: 2329, result: []},
+          { bossName: 'Maut', encounterId: 2327, result: []},
+          { bossName: 'The Prophet Skitra', encounterId: 2334, result: []},
+          { bossName: 'Dark Inquisitor Xanesh', encounterId: 2329, result: []},
+          { bossName: 'The Hivemind', encounterId: 2333, result: []},
+          { bossName: 'Shad\'har the Insatiable', encounterId: 2335, result: []},
+          { bossName: 'Drest`agath', encounterId: 2343, result: []},
+          { bossName: 'Vexiona', encounterId: 2336, result: []},
+          { bossName: 'Ra-den the Despoiled', encounterId: 2331, result: []},
+          { bossName: 'Il\'gynoth, Corruption Reborn', encounterId: 2345, result: []},
+          { bossName: 'Carapace of N\'Zoth', encounterId: 2337, result: []},
+          { bossName: 'N\'Zoth the Corruptor', encounterId: 2344, result: []}
         ],
         heroic: [
-          { bossName: 'Abyssal Commander Sivara', encounterId: 2298, result: []},
-          { bossName: 'Radiance of Azshara', encounterId: 2305, result: []},
-          { bossName: 'Blackwater Behemoth', encounterId: 2289, result: []},
-          { bossName: 'Lady Ashvane', encounterId: 2304, result: []},
-          { bossName: 'Orgozoa', encounterId: 2303, result: []},
-          { bossName: 'The Queen\'s Court', encounterId: 2311, result: []},
-          { bossName: 'Za\'qul', encounterId: 2293, result: []},
-          { bossName: 'Queen Azshara', encounterId: 2299, result: []}
+          { bossName: 'Wrathion', encounterId: 2329, result: []},
+          { bossName: 'Maut', encounterId: 2327, result: []},
+          { bossName: 'The Prophet Skitra', encounterId: 2334, result: []},
+          { bossName: 'Dark Inquisitor Xanesh', encounterId: 2329, result: []},
+          { bossName: 'The Hivemind', encounterId: 2333, result: []},
+          { bossName: 'Shad\'har the Insatiable', encounterId: 2335, result: []},
+          { bossName: 'Drest`agath', encounterId: 2343, result: []},
+          { bossName: 'Vexiona', encounterId: 2336, result: []},
+          { bossName: 'Ra-den the Despoiled', encounterId: 2331, result: []},
+          { bossName: 'Il\'gynoth, Corruption Reborn', encounterId: 2345, result: []},
+          { bossName: 'Carapace of N\'Zoth', encounterId: 2337, result: []},
+          { bossName: 'N\'Zoth the Corruptor', encounterId: 2344, result: []}
         ],
         mythic: [
-          { bossName: 'Abyssal Commander Sivara', encounterId: 2298, result: []},
-          { bossName: 'Radiance of Azshara', encounterId: 2305, result: []},
-          { bossName: 'Blackwater Behemoth', encounterId: 2289, result: []},
-          { bossName: 'Lady Ashvane', encounterId: 2304, result: []},
-          { bossName: 'Orgozoa', encounterId: 2303, result: []},
-          { bossName: 'The Queen\'s Court', encounterId: 2311, result: []},
-          { bossName: 'Za\'qul', encounterId: 2293, result: []},
-          { bossName: 'Queen Azshara', encounterId: 2299, result: []}
+          { bossName: 'Wrathion', encounterId: 2329, result: []},
+          { bossName: 'Maut', encounterId: 2327, result: []},
+          { bossName: 'The Prophet Skitra', encounterId: 2334, result: []},
+          { bossName: 'Dark Inquisitor Xanesh', encounterId: 2329, result: []},
+          { bossName: 'The Hivemind', encounterId: 2333, result: []},
+          { bossName: 'Shad\'har the Insatiable', encounterId: 2335, result: []},
+          { bossName: 'Drest`agath', encounterId: 2343, result: []},
+          { bossName: 'Vexiona', encounterId: 2336, result: []},
+          { bossName: 'Ra-den the Despoiled', encounterId: 2331, result: []},
+          { bossName: 'Il\'gynoth, Corruption Reborn', encounterId: 2345, result: []},
+          { bossName: 'Carapace of N\'Zoth', encounterId: 2337, result: []},
+          { bossName: 'N\'Zoth the Corruptor', encounterId: 2344, result: []}
         ]
       },
       hps: {
         normal: [
-          { bossName: 'Abyssal Commander Sivara', encounterId: 2298, result: []},
-          { bossName: 'Radiance of Azshara', encounterId: 2305, result: []},
-          { bossName: 'Blackwater Behemoth', encounterId: 2289, result: []},
-          { bossName: 'Lady Ashvane', encounterId: 2304, result: []},
-          { bossName: 'Orgozoa', encounterId: 2303, result: []},
-          { bossName: 'The Queen\'s Court', encounterId: 2311, result: []},
-          { bossName: 'Za\'qul', encounterId: 2293, result: []},
-          { bossName: 'Queen Azshara', encounterId: 2299, result: []}
+          { bossName: 'Wrathion', encounterId: 2329, result: []},
+          { bossName: 'Maut', encounterId: 2327, result: []},
+          { bossName: 'The Prophet Skitra', encounterId: 2334, result: []},
+          { bossName: 'Dark Inquisitor Xanesh', encounterId: 2329, result: []},
+          { bossName: 'The Hivemind', encounterId: 2333, result: []},
+          { bossName: 'Shad\'har the Insatiable', encounterId: 2335, result: []},
+          { bossName: 'Drest`agath', encounterId: 2343, result: []},
+          { bossName: 'Vexiona', encounterId: 2336, result: []},
+          { bossName: 'Ra-den the Despoiled', encounterId: 2331, result: []},
+          { bossName: 'Il\'gynoth, Corruption Reborn', encounterId: 2345, result: []},
+          { bossName: 'Carapace of N\'Zoth', encounterId: 2337, result: []},
+          { bossName: 'N\'Zoth the Corruptor', encounterId: 2344, result: []}
         ],
         heroic: [
-          { bossName: 'Abyssal Commander Sivara', encounterId: 2298, result: []},
-          { bossName: 'Radiance of Azshara', encounterId: 2305, result: []},
-          { bossName: 'Blackwater Behemoth', encounterId: 2289, result: []},
-          { bossName: 'Lady Ashvane', encounterId: 2304, result: []},
-          { bossName: 'Orgozoa', encounterId: 2303, result: []},
-          { bossName: 'The Queen\'s Court', encounterId: 2311, result: []},
-          { bossName: 'Za\'qul', encounterId: 2293, result: []},
-          { bossName: 'Queen Azshara', encounterId: 2299, result: []}
+          { bossName: 'Wrathion', encounterId: 2329, result: []},
+          { bossName: 'Maut', encounterId: 2327, result: []},
+          { bossName: 'The Prophet Skitra', encounterId: 2334, result: []},
+          { bossName: 'Dark Inquisitor Xanesh', encounterId: 2329, result: []},
+          { bossName: 'The Hivemind', encounterId: 2333, result: []},
+          { bossName: 'Shad\'har the Insatiable', encounterId: 2335, result: []},
+          { bossName: 'Drest`agath', encounterId: 2343, result: []},
+          { bossName: 'Vexiona', encounterId: 2336, result: []},
+          { bossName: 'Ra-den the Despoiled', encounterId: 2331, result: []},
+          { bossName: 'Il\'gynoth, Corruption Reborn', encounterId: 2345, result: []},
+          { bossName: 'Carapace of N\'Zoth', encounterId: 2337, result: []},
+          { bossName: 'N\'Zoth the Corruptor', encounterId: 2344, result: []}
         ],
         mythic: [
-          { bossName: 'Abyssal Commander Sivara', encounterId: 2298, result: []},
-          { bossName: 'Radiance of Azshara', encounterId: 2305, result: []},
-          { bossName: 'Blackwater Behemoth', encounterId: 2289, result: []},
-          { bossName: 'Lady Ashvane', encounterId: 2304, result: []},
-          { bossName: 'Orgozoa', encounterId: 2303, result: []},
-          { bossName: 'The Queen\'s Court', encounterId: 2311, result: []},
-          { bossName: 'Za\'qul', encounterId: 2293, result: []},
-          { bossName: 'Queen Azshara', encounterId: 2299, result: []}
+          { bossName: 'Wrathion', encounterId: 2329, result: []},
+          { bossName: 'Maut', encounterId: 2327, result: []},
+          { bossName: 'The Prophet Skitra', encounterId: 2334, result: []},
+          { bossName: 'Dark Inquisitor Xanesh', encounterId: 2329, result: []},
+          { bossName: 'The Hivemind', encounterId: 2333, result: []},
+          { bossName: 'Shad\'har the Insatiable', encounterId: 2335, result: []},
+          { bossName: 'Drest`agath', encounterId: 2343, result: []},
+          { bossName: 'Vexiona', encounterId: 2336, result: []},
+          { bossName: 'Ra-den the Despoiled', encounterId: 2331, result: []},
+          { bossName: 'Il\'gynoth, Corruption Reborn', encounterId: 2345, result: []},
+          { bossName: 'Carapace of N\'Zoth', encounterId: 2337, result: []},
+          { bossName: 'N\'Zoth the Corruptor', encounterId: 2344, result: []}
         ]
       },
     };
