@@ -128,6 +128,7 @@ export class MainPageComponent implements OnInit {
       'Малиновка',
       'Муертосс',
       'Песняветров',
+      'Лаанж',
     ];
     this.viewResult = {
       films: [],
