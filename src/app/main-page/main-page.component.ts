@@ -116,10 +116,10 @@ export class MainPageComponent implements OnInit {
       'Сериша',
       'Сплэшз',
       'Стёпабест',
-      'Тамоми',
       'Фиренн',
       'Хугенбанд',
       'Шадоссх',
+      'Наршик',
     ];
     this.characterNamesHeals = [
       'Бронетапочек',
@@ -128,9 +128,6 @@ export class MainPageComponent implements OnInit {
       'Малиновка',
       'Муертосс',
       'Песняветров',
-      'Сейваша',
-      'Сериша',
-      'Сплэшз',
     ];
     this.viewResult = {
       films: [],
