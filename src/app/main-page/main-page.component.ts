@@ -120,6 +120,7 @@ export class MainPageComponent implements OnInit {
       'Хугенбанд',
       'Шадоссх',
       'Наршик',
+      'Шаминбо',
     ];
     this.characterNamesHeals = [
       'Бронетапочек',
