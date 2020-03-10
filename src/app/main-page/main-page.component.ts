@@ -289,6 +289,10 @@ export class MainPageComponent implements OnInit {
       .get(`${this.apiUrl}/parses/character/${characterName}/${serverName}/${serverRegion}?metric=dps&api_key=${this.apiKeys[this.getRandomInt(0, this.apiKeys.length)]}`)
       .toPromise()
       .then((result: any) => {
+        if (result && result.status === 400) {
+          this.didntload++;
+          return;
+        }
         if (result.length > 0) {
           const gearilvl = this.findBestGearilvl(result);
           for (let i = 0; i < bosses.length; i++) {
@@ -350,6 +354,10 @@ export class MainPageComponent implements OnInit {
       .get(`${this.apiUrl}/parses/character/${characterName}/${serverName}/${serverRegion}?metric=hps&api_key=${this.apiKeys[this.getRandomInt(0, this.apiKeys.length)]}`)
       .toPromise()
       .then((result: any) => {
+        if (result && result.status === 400) {
+          this.didntload++;
+          return;
+        }
         if (result.length > 0) {
           const gearilvl = this.findBestGearilvl(result);
           for (let i = 0; i < bosses.length; i++) {
