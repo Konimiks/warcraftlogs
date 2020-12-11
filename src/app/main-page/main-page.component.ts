@@ -3,56 +3,47 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import {throwError} from 'rxjs';
 
 const serverName = 'гордунни';
-// const serverName = 'черныи-шрам';
 const serverRegion = 'EU';
 const bosses = [
   {
-    encounterId: 2329,
-    bossName: 'Wrathion'
+    'encounterId': 2398,
+    'bossName': 'Shriekwing'
   },
   {
-    encounterId: 2327,
-    bossName: 'Maut'
+    'encounterId': 2418,
+    'bossName': 'Huntsman Altimor'
   },
   {
-    encounterId: 2334,
-    bossName: 'The Prophet Skitra'
+    'encounterId': 2383,
+    'bossName': 'Hungering Destroyer'
   },
   {
-    encounterId: 2329,
-    bossName: 'Dark Inquisitor Xanesh'
+    'encounterId': 2402,
+    'bossName': 'Sun King\'s Salvation'
   },
   {
-    encounterId: 2333,
-    bossName: 'The Hivemind'
+    'encounterId': 2405,
+    'bossName': 'Artificer Xy\'mox'
   },
   {
-    encounterId: 2335,
-    bossName: 'Shad\'har the Insatiable'
+    'encounterId': 2406,
+    'bossName': 'Lady Inerva Darkvein'
   },
   {
-    encounterId: 2343,
-    bossName: 'Drest`agath'
+    'encounterId': 2412,
+    'bossName': 'The Council of Blood'
   },
   {
-    encounterId: 2336,
-    bossName: 'Vexiona'
+    'encounterId': 2399,
+    'bossName': 'Sludgefist'
   },
   {
-    encounterId: 2331,
-    bossName: 'Ra-den the Despoiled'
+    'encounterId': 2417,
+    'bossName': 'Stone Legion Generals'
   },
   {
-    encounterId: 2345,
-    bossName: 'Il\'gynoth, Corruption Reborn'
-  },
-  {
-    encounterId: 2337,
-    bossName: 'Carapace of N\'Zoth'
-  },
-  {
-    encounterId: 2344,
-    bossName: 'N\'Zoth the Corruptor'
+    'encounterId': 2407,
+    'bossName': 'Sire Denathrius'
   }
 ];
 const diff = {
@@ -91,135 +82,118 @@ export class MainPageComponent implements OnInit {
     ];
     this.bossesTmp = bosses;
     this.characterNames = [
-      'Альфыч',
       'Антрепренёр',
-      'Биверсон',
-      'Бличи',
-      'Бронетапочек',
-      'Гастроли',
       'Дженнет',
-      'Дисгаст',
-      'Епакса',
-      'Измираэль',
-      'Конимикс',
-      'Лаанж',
-      'Малиновка',
-      'Мариэлль',
-      'Муертосс',
+      'Измироэль',
+      'Конимекс',
       'Наггал',
-      'Нахимка',
-      'Паганель',
       'Песняветров',
-      'Сплэшз',
       'Стёпабест',
       'Фиренн',
-      'Хугенбанд',
-      'Шадоссх',
-      'Наршик',
-      'Шаминбо',
-      'Кнцстркхшнбт',
-      'Нукари',
-      'Трогган',
-      'Джинстон',
+      'Хаккасус',
+      'Дквсапогах',
+      'Намбепал',
+      'Джасслин',
+      'Бейкерс',
+      'Лакримоска',
+      'Мехит',
+      'Инфери',
+      'Сержохотник',
+      'Моррел',
+      'Типичныйчерт',
+      'Кометаа',
+      'Буасон',
+      'Мерисолт',
+      'Джетроус',
+      'Эйсбрингер',
+      'Вжухлинг',
+      'Бэнтенмару',
+      'Йоррамай',
+      'Муертосс',
+      'Громлан',
+      'Тисаншия',
     ];
     this.characterNamesHeals = [
-      'Бронетапочек',
-      'Гачидин',
-      'Конимикс',
-      'Малиновка',
       'Муертосс',
       'Песняветров',
-      'Лаанж',
-      'Трогган',
+      'Громлан',
+      'Тисаншия',
     ];
     this.viewResult = {
-      films: [],
       dps: {
         normal: [
-          { bossName: 'Wrathion', encounterId: 2329, result: []},
-          { bossName: 'Maut', encounterId: 2327, result: []},
-          { bossName: 'The Prophet Skitra', encounterId: 2334, result: []},
-          { bossName: 'Dark Inquisitor Xanesh', encounterId: 2329, result: []},
-          { bossName: 'The Hivemind', encounterId: 2333, result: []},
-          { bossName: 'Shad\'har the Insatiable', encounterId: 2335, result: []},
-          { bossName: 'Drest`agath', encounterId: 2343, result: []},
-          { bossName: 'Vexiona', encounterId: 2336, result: []},
-          { bossName: 'Ra-den the Despoiled', encounterId: 2331, result: []},
-          { bossName: 'Il\'gynoth, Corruption Reborn', encounterId: 2345, result: []},
-          { bossName: 'Carapace of N\'Zoth', encounterId: 2337, result: []},
-          { bossName: 'N\'Zoth the Corruptor', encounterId: 2344, result: []}
+          { bossName: 'Shriekwing', encounterId: 2398, result: []},
+          { bossName: 'Huntsman Altimor', encounterId: 2418, result: []},
+          { bossName: 'Hungering Destroyer', encounterId: 2383, result: []},
+          { bossName: 'Sun King\'s Salvation', encounterId: 2402, result: []},
+          { bossName: 'Artificer Xy\'mox', encounterId: 2405, result: []},
+          { bossName: 'Lady Inerva Darkvein', encounterId: 2406, result: []},
+          { bossName: 'The Council of Blood', encounterId: 2412, result: []},
+          { bossName: 'Sludgefist', encounterId: 2399, result: []},
+          { bossName: 'Stone Legion Generals', encounterId: 2417, result: []},
+          { bossName: 'Sire Denathrius', encounterId: 2407, result: []},
         ],
         heroic: [
-          { bossName: 'Wrathion', encounterId: 2329, result: []},
-          { bossName: 'Maut', encounterId: 2327, result: []},
-          { bossName: 'The Prophet Skitra', encounterId: 2334, result: []},
-          { bossName: 'Dark Inquisitor Xanesh', encounterId: 2329, result: []},
-          { bossName: 'The Hivemind', encounterId: 2333, result: []},
-          { bossName: 'Shad\'har the Insatiable', encounterId: 2335, result: []},
-          { bossName: 'Drest`agath', encounterId: 2343, result: []},
-          { bossName: 'Vexiona', encounterId: 2336, result: []},
-          { bossName: 'Ra-den the Despoiled', encounterId: 2331, result: []},
-          { bossName: 'Il\'gynoth, Corruption Reborn', encounterId: 2345, result: []},
-          { bossName: 'Carapace of N\'Zoth', encounterId: 2337, result: []},
-          { bossName: 'N\'Zoth the Corruptor', encounterId: 2344, result: []}
+          { bossName: 'Shriekwing', encounterId: 2398, result: []},
+          { bossName: 'Huntsman Altimor', encounterId: 2418, result: []},
+          { bossName: 'Hungering Destroyer', encounterId: 2383, result: []},
+          { bossName: 'Sun King\'s Salvation', encounterId: 2402, result: []},
+          { bossName: 'Artificer Xy\'mox', encounterId: 2405, result: []},
+          { bossName: 'Lady Inerva Darkvein', encounterId: 2406, result: []},
+          { bossName: 'The Council of Blood', encounterId: 2412, result: []},
+          { bossName: 'Sludgefist', encounterId: 2399, result: []},
+          { bossName: 'Stone Legion Generals', encounterId: 2417, result: []},
+          { bossName: 'Sire Denathrius', encounterId: 2407, result: []},
         ],
         mythic: [
-          { bossName: 'Wrathion', encounterId: 2329, result: []},
-          { bossName: 'Maut', encounterId: 2327, result: []},
-          { bossName: 'The Prophet Skitra', encounterId: 2334, result: []},
-          { bossName: 'Dark Inquisitor Xanesh', encounterId: 2329, result: []},
-          { bossName: 'The Hivemind', encounterId: 2333, result: []},
-          { bossName: 'Shad\'har the Insatiable', encounterId: 2335, result: []},
-          { bossName: 'Drest`agath', encounterId: 2343, result: []},
-          { bossName: 'Vexiona', encounterId: 2336, result: []},
-          { bossName: 'Ra-den the Despoiled', encounterId: 2331, result: []},
-          { bossName: 'Il\'gynoth, Corruption Reborn', encounterId: 2345, result: []},
-          { bossName: 'Carapace of N\'Zoth', encounterId: 2337, result: []},
-          { bossName: 'N\'Zoth the Corruptor', encounterId: 2344, result: []}
+          { bossName: 'Shriekwing', encounterId: 2398, result: []},
+          { bossName: 'Huntsman Altimor', encounterId: 2418, result: []},
+          { bossName: 'Hungering Destroyer', encounterId: 2383, result: []},
+          { bossName: 'Sun King\'s Salvation', encounterId: 2402, result: []},
+          { bossName: 'Artificer Xy\'mox', encounterId: 2405, result: []},
+          { bossName: 'Lady Inerva Darkvein', encounterId: 2406, result: []},
+          { bossName: 'The Council of Blood', encounterId: 2412, result: []},
+          { bossName: 'Sludgefist', encounterId: 2399, result: []},
+          { bossName: 'Stone Legion Generals', encounterId: 2417, result: []},
+          { bossName: 'Sire Denathrius', encounterId: 2407, result: []},
         ]
       },
       hps: {
         normal: [
-          { bossName: 'Wrathion', encounterId: 2329, result: []},
-          { bossName: 'Maut', encounterId: 2327, result: []},
-          { bossName: 'The Prophet Skitra', encounterId: 2334, result: []},
-          { bossName: 'Dark Inquisitor Xanesh', encounterId: 2329, result: []},
-          { bossName: 'The Hivemind', encounterId: 2333, result: []},
-          { bossName: 'Shad\'har the Insatiable', encounterId: 2335, result: []},
-          { bossName: 'Drest`agath', encounterId: 2343, result: []},
-          { bossName: 'Vexiona', encounterId: 2336, result: []},
-          { bossName: 'Ra-den the Despoiled', encounterId: 2331, result: []},
-          { bossName: 'Il\'gynoth, Corruption Reborn', encounterId: 2345, result: []},
-          { bossName: 'Carapace of N\'Zoth', encounterId: 2337, result: []},
-          { bossName: 'N\'Zoth the Corruptor', encounterId: 2344, result: []}
+          { bossName: 'Shriekwing', encounterId: 2398, result: []},
+          { bossName: 'Huntsman Altimor', encounterId: 2418, result: []},
+          { bossName: 'Hungering Destroyer', encounterId: 2383, result: []},
+          { bossName: 'Sun King\'s Salvation', encounterId: 2402, result: []},
+          { bossName: 'Artificer Xy\'mox', encounterId: 2405, result: []},
+          { bossName: 'Lady Inerva Darkvein', encounterId: 2406, result: []},
+          { bossName: 'The Council of Blood', encounterId: 2412, result: []},
+          { bossName: 'Sludgefist', encounterId: 2399, result: []},
+          { bossName: 'Stone Legion Generals', encounterId: 2417, result: []},
+          { bossName: 'Sire Denathrius', encounterId: 2407, result: []},
         ],
         heroic: [
-          { bossName: 'Wrathion', encounterId: 2329, result: []},
-          { bossName: 'Maut', encounterId: 2327, result: []},
-          { bossName: 'The Prophet Skitra', encounterId: 2334, result: []},
-          { bossName: 'Dark Inquisitor Xanesh', encounterId: 2329, result: []},
-          { bossName: 'The Hivemind', encounterId: 2333, result: []},
-          { bossName: 'Shad\'har the Insatiable', encounterId: 2335, result: []},
-          { bossName: 'Drest`agath', encounterId: 2343, result: []},
-          { bossName: 'Vexiona', encounterId: 2336, result: []},
-          { bossName: 'Ra-den the Despoiled', encounterId: 2331, result: []},
-          { bossName: 'Il\'gynoth, Corruption Reborn', encounterId: 2345, result: []},
-          { bossName: 'Carapace of N\'Zoth', encounterId: 2337, result: []},
-          { bossName: 'N\'Zoth the Corruptor', encounterId: 2344, result: []}
+          { bossName: 'Shriekwing', encounterId: 2398, result: []},
+          { bossName: 'Huntsman Altimor', encounterId: 2418, result: []},
+          { bossName: 'Hungering Destroyer', encounterId: 2383, result: []},
+          { bossName: 'Sun King\'s Salvation', encounterId: 2402, result: []},
+          { bossName: 'Artificer Xy\'mox', encounterId: 2405, result: []},
+          { bossName: 'Lady Inerva Darkvein', encounterId: 2406, result: []},
+          { bossName: 'The Council of Blood', encounterId: 2412, result: []},
+          { bossName: 'Sludgefist', encounterId: 2399, result: []},
+          { bossName: 'Stone Legion Generals', encounterId: 2417, result: []},
+          { bossName: 'Sire Denathrius', encounterId: 2407, result: []},
         ],
         mythic: [
-          { bossName: 'Wrathion', encounterId: 2329, result: []},
-          { bossName: 'Maut', encounterId: 2327, result: []},
-          { bossName: 'The Prophet Skitra', encounterId: 2334, result: []},
-          { bossName: 'Dark Inquisitor Xanesh', encounterId: 2329, result: []},
-          { bossName: 'The Hivemind', encounterId: 2333, result: []},
-          { bossName: 'Shad\'har the Insatiable', encounterId: 2335, result: []},
-          { bossName: 'Drest`agath', encounterId: 2343, result: []},
-          { bossName: 'Vexiona', encounterId: 2336, result: []},
-          { bossName: 'Ra-den the Despoiled', encounterId: 2331, result: []},
-          { bossName: 'Il\'gynoth, Corruption Reborn', encounterId: 2345, result: []},
-          { bossName: 'Carapace of N\'Zoth', encounterId: 2337, result: []},
-          { bossName: 'N\'Zoth the Corruptor', encounterId: 2344, result: []}
+          { bossName: 'Shriekwing', encounterId: 2398, result: []},
+          { bossName: 'Huntsman Altimor', encounterId: 2418, result: []},
+          { bossName: 'Hungering Destroyer', encounterId: 2383, result: []},
+          { bossName: 'Sun King\'s Salvation', encounterId: 2402, result: []},
+          { bossName: 'Artificer Xy\'mox', encounterId: 2405, result: []},
+          { bossName: 'Lady Inerva Darkvein', encounterId: 2406, result: []},
+          { bossName: 'The Council of Blood', encounterId: 2412, result: []},
+          { bossName: 'Sludgefist', encounterId: 2399, result: []},
+          { bossName: 'Stone Legion Generals', encounterId: 2417, result: []},
+          { bossName: 'Sire Denathrius', encounterId: 2407, result: []},
         ]
       },
     };
@@ -270,7 +244,7 @@ export class MainPageComponent implements OnInit {
         count++;
       }
     }
-    let average = count !== 0 ? (dps / count).toFixed(0) : 0;
+    const average = count !== 0 ? (dps / count).toFixed(0) : 0;
     return { average, killsCount: count };
   }
 
@@ -345,7 +319,7 @@ export class MainPageComponent implements OnInit {
       })
       .catch(error => {
         this.didntload++;
-        console.log('Error: ' + error.message)
+        console.log('Error: ' + error.message);
       });
   }
 
@@ -410,7 +384,7 @@ export class MainPageComponent implements OnInit {
       })
       .catch(error => {
         this.didntload++;
-        console.log('Error: ' + error.message)
+        console.log('Error: ' + error.message);
       });
   }
 
@@ -451,7 +425,7 @@ export class MainPageComponent implements OnInit {
   }
 
   async ngOnInit() {
-    let promises = [];
+    const promises = [];
     for (let j = 0; j < this.characterNames.length; j++) {
       promises.push(this.getDataByCharacterDPS(this.characterNames[j]));
     }
